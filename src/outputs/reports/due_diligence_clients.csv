@@ -1,0 +1,2 @@
+client,tweet_count,avg_risk_score,high_risk_ratio,positive_ratio,negative_ratio,neutral_ratio,keywords_positive,keywords_negative,keywords_neutral,due_diligence_decision
+UNKNOWN_CLIENT,4845,1.3,1.0,0.2813,0.1247,0.594,['positive'],['negative'],['neutral'],eviter

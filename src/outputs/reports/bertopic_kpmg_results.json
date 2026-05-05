@@ -1,0 +1,1574 @@
+{
+  "metadata": {
+    "total_docs": 100,
+    "n_topics": 25,
+    "noise_count": 1,
+    "coverage_percentage": 99.0
+  },
+  "topics_detail": [
+    {
+      "topic_id": -1,
+      "count": 4,
+      "keywords": [
+        "nos",
+        "experiencia",
+        "analyse",
+        "fragen",
+        "esta"
+      ]
+    },
+    {
+      "topic_id": 0,
+      "count": 13,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "topic_id": 1,
+      "count": 11,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "count": 8,
+      "keywords": [
+        "consultoras",
+        "trabajo",
+        "anlisis",
+        "modelo",
+        "juniors"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "count": 7,
+      "keywords": [
+        "notre",
+        "anlisis",
+        "qualitt",
+        "team",
+        "empfehlungen"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "count": 5,
+      "keywords": [
+        "capgemini",
+        "estratgica",
+        "consultora estratgica",
+        "soulve",
+        "modelo"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "count": 4,
+      "keywords": [
+        "leurs",
+        "increasingly",
+        "dintrts",
+        "cest",
+        "firm"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "count": 4,
+      "keywords": [
+        "culture",
+        "ses",
+        "increasingly",
+        "hours",
+        "branche"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "count": 3,
+      "keywords": [
+        "revenue",
+        "financiers",
+        "financial",
+        "company",
+        "capgemini"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "count": 3,
+      "keywords": [
+        "good",
+        "entreprises",
+        "trabajo",
+        "hours",
+        "aos"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "count": 3,
+      "keywords": [
+        "transformacin",
+        "digital",
+        "firmas",
+        "grandes firmas",
+        "sector"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "count": 3,
+      "keywords": [
+        "engagement",
+        "waren",
+        "good",
+        "financial",
+        "fees"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "count": 3,
+      "keywords": [
+        "grandes firmas",
+        "financiers",
+        "comptes",
+        "auditora",
+        "firmas"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "count": 3,
+      "keywords": [
+        "consulting industry",
+        "major",
+        "company",
+        "mckinsey",
+        "entreprises"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "count": 3,
+      "keywords": [
+        "information",
+        "kpmg",
+        "companies",
+        "partner",
+        "company"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "count": 3,
+      "keywords": [
+        "rotation",
+        "financiers",
+        "comptes",
+        "qualit",
+        "rsultats"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "count": 2,
+      "keywords": [
+        "satisfaction",
+        "financial",
+        "comptes",
+        "cabinets conseil",
+        "cabinets"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "count": 2,
+      "keywords": [
+        "servicio",
+        "equipo",
+        "calidad",
+        "partner",
+        "experiencia"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "count": 2,
+      "keywords": [
+        "servicio",
+        "auditora",
+        "aos",
+        "nuestra",
+        "sus"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "count": 2,
+      "keywords": [
+        "increasingly",
+        "given",
+        "fees",
+        "consulting industry",
+        "satisfaction"
+      ]
+    },
+    {
+      "topic_id": 19,
+      "count": 2,
+      "keywords": [
+        "grandes firmas",
+        "trabajo",
+        "est",
+        "auditora",
+        "sobre"
+      ]
+    },
+    {
+      "topic_id": 20,
+      "count": 2,
+      "keywords": [
+        "jai",
+        "secteur",
+        "soulve",
+        "rsultats",
+        "cabinet conseil"
+      ]
+    },
+    {
+      "topic_id": 21,
+      "count": 2,
+      "keywords": [
+        "team",
+        "revenue",
+        "waren",
+        "des",
+        "haben"
+      ]
+    },
+    {
+      "topic_id": 22,
+      "count": 2,
+      "keywords": [
+        "jai",
+        "juniors",
+        "cest",
+        "secteur",
+        "analyse"
+      ]
+    },
+    {
+      "topic_id": 23,
+      "count": 2,
+      "keywords": [
+        "rotation",
+        "ans",
+        "dintrts",
+        "soulve",
+        "big"
+      ]
+    },
+    {
+      "topic_id": 24,
+      "count": 2,
+      "keywords": [
+        "plazo",
+        "nuestra",
+        "nos",
+        "sobre",
+        "pero"
+      ]
+    }
+  ],
+  "document_assignments": [
+    {
+      "doc_id": 1,
+      "category": "audit_conformite",
+      "topic_id": 11,
+      "topic_probability": 1.0,
+      "keywords": [
+        "grandes firmas",
+        "financiers",
+        "comptes",
+        "auditora",
+        "firmas"
+      ]
+    },
+    {
+      "doc_id": 2,
+      "category": "audit_conformite",
+      "topic_id": 0,
+      "topic_probability": 1.0,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 3,
+      "category": "audit_conformite",
+      "topic_id": 11,
+      "topic_probability": 0.0666475313856601,
+      "keywords": [
+        "grandes firmas",
+        "financiers",
+        "comptes",
+        "auditora",
+        "firmas"
+      ]
+    },
+    {
+      "doc_id": 4,
+      "category": "audit_conformite",
+      "topic_id": 14,
+      "topic_probability": 0.14332561559160287,
+      "keywords": [
+        "rotation",
+        "financiers",
+        "comptes",
+        "qualit",
+        "rsultats"
+      ]
+    },
+    {
+      "doc_id": 5,
+      "category": "audit_conformite",
+      "topic_id": 11,
+      "topic_probability": 1.0,
+      "keywords": [
+        "grandes firmas",
+        "financiers",
+        "comptes",
+        "auditora",
+        "firmas"
+      ]
+    },
+    {
+      "doc_id": 6,
+      "category": "audit_conformite",
+      "topic_id": 23,
+      "topic_probability": 1.0,
+      "keywords": [
+        "rotation",
+        "ans",
+        "dintrts",
+        "soulve",
+        "big"
+      ]
+    },
+    {
+      "doc_id": 7,
+      "category": "audit_conformite",
+      "topic_id": 21,
+      "topic_probability": 1.0,
+      "keywords": [
+        "team",
+        "revenue",
+        "waren",
+        "des",
+        "haben"
+      ]
+    },
+    {
+      "doc_id": 8,
+      "category": "audit_conformite",
+      "topic_id": 19,
+      "topic_probability": 1.0,
+      "keywords": [
+        "grandes firmas",
+        "trabajo",
+        "est",
+        "auditora",
+        "sobre"
+      ]
+    },
+    {
+      "doc_id": 9,
+      "category": "audit_conformite",
+      "topic_id": 21,
+      "topic_probability": 1.0,
+      "keywords": [
+        "team",
+        "revenue",
+        "waren",
+        "des",
+        "haben"
+      ]
+    },
+    {
+      "doc_id": 10,
+      "category": "audit_conformite",
+      "topic_id": 19,
+      "topic_probability": 1.0,
+      "keywords": [
+        "grandes firmas",
+        "trabajo",
+        "est",
+        "auditora",
+        "sobre"
+      ]
+    },
+    {
+      "doc_id": 11,
+      "category": "audit_conformite",
+      "topic_id": 14,
+      "topic_probability": 1.0,
+      "keywords": [
+        "rotation",
+        "financiers",
+        "comptes",
+        "qualit",
+        "rsultats"
+      ]
+    },
+    {
+      "doc_id": 12,
+      "category": "audit_conformite",
+      "topic_id": 13,
+      "topic_probability": 0.9711602124040569,
+      "keywords": [
+        "information",
+        "kpmg",
+        "companies",
+        "partner",
+        "company"
+      ]
+    },
+    {
+      "doc_id": 13,
+      "category": "audit_conformite",
+      "topic_id": 17,
+      "topic_probability": 1.0,
+      "keywords": [
+        "servicio",
+        "auditora",
+        "aos",
+        "nuestra",
+        "sus"
+      ]
+    },
+    {
+      "doc_id": 14,
+      "category": "audit_conformite",
+      "topic_id": 14,
+      "topic_probability": 1.0,
+      "keywords": [
+        "rotation",
+        "financiers",
+        "comptes",
+        "qualit",
+        "rsultats"
+      ]
+    },
+    {
+      "doc_id": 15,
+      "category": "audit_conformite",
+      "topic_id": 17,
+      "topic_probability": 1.0,
+      "keywords": [
+        "servicio",
+        "auditora",
+        "aos",
+        "nuestra",
+        "sus"
+      ]
+    },
+    {
+      "doc_id": 16,
+      "category": "reputation_scandale",
+      "topic_id": 12,
+      "topic_probability": 1.0,
+      "keywords": [
+        "consulting industry",
+        "major",
+        "company",
+        "mckinsey",
+        "entreprises"
+      ]
+    },
+    {
+      "doc_id": 17,
+      "category": "reputation_scandale",
+      "topic_id": 12,
+      "topic_probability": 1.0,
+      "keywords": [
+        "consulting industry",
+        "major",
+        "company",
+        "mckinsey",
+        "entreprises"
+      ]
+    },
+    {
+      "doc_id": 18,
+      "category": "reputation_scandale",
+      "topic_id": 0,
+      "topic_probability": 1.0,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 19,
+      "category": "reputation_scandale",
+      "topic_id": 0,
+      "topic_probability": 1.0,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 20,
+      "category": "reputation_scandale",
+      "topic_id": 0,
+      "topic_probability": 0.8658663425219472,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 21,
+      "category": "reputation_scandale",
+      "topic_id": 5,
+      "topic_probability": 1.0,
+      "keywords": [
+        "leurs",
+        "increasingly",
+        "dintrts",
+        "cest",
+        "firm"
+      ]
+    },
+    {
+      "doc_id": 22,
+      "category": "reputation_scandale",
+      "topic_id": 12,
+      "topic_probability": 0.4885022547720714,
+      "keywords": [
+        "consulting industry",
+        "major",
+        "company",
+        "mckinsey",
+        "entreprises"
+      ]
+    },
+    {
+      "doc_id": 23,
+      "category": "reputation_scandale",
+      "topic_id": 0,
+      "topic_probability": 0.2490762515064827,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 24,
+      "category": "reputation_scandale",
+      "topic_id": 1,
+      "topic_probability": 1.0,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 25,
+      "category": "reputation_scandale",
+      "topic_id": 0,
+      "topic_probability": 0.8355886622875436,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 26,
+      "category": "reputation_scandale",
+      "topic_id": 6,
+      "topic_probability": 0.28336627134774267,
+      "keywords": [
+        "culture",
+        "ses",
+        "increasingly",
+        "hours",
+        "branche"
+      ]
+    },
+    {
+      "doc_id": 27,
+      "category": "reputation_scandale",
+      "topic_id": 13,
+      "topic_probability": 1.0,
+      "keywords": [
+        "information",
+        "kpmg",
+        "companies",
+        "partner",
+        "company"
+      ]
+    },
+    {
+      "doc_id": 28,
+      "category": "reputation_scandale",
+      "topic_id": -1,
+      "topic_probability": 0.0,
+      "keywords": []
+    },
+    {
+      "doc_id": 29,
+      "category": "reputation_scandale",
+      "topic_id": 0,
+      "topic_probability": 1.0,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 30,
+      "category": "reputation_scandale",
+      "topic_id": -1,
+      "topic_probability": 0.0,
+      "keywords": []
+    },
+    {
+      "doc_id": 31,
+      "category": "services_qualite",
+      "topic_id": 3,
+      "topic_probability": 0.20222645559976815,
+      "keywords": [
+        "notre",
+        "anlisis",
+        "qualitt",
+        "team",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 32,
+      "category": "services_qualite",
+      "topic_id": 3,
+      "topic_probability": 1.0,
+      "keywords": [
+        "notre",
+        "anlisis",
+        "qualitt",
+        "team",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 33,
+      "category": "services_qualite",
+      "topic_id": 3,
+      "topic_probability": 0.2114251197243851,
+      "keywords": [
+        "notre",
+        "anlisis",
+        "qualitt",
+        "team",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 34,
+      "category": "services_qualite",
+      "topic_id": 3,
+      "topic_probability": 1.0,
+      "keywords": [
+        "notre",
+        "anlisis",
+        "qualitt",
+        "team",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 35,
+      "category": "services_qualite",
+      "topic_id": 3,
+      "topic_probability": 0.2790096888202783,
+      "keywords": [
+        "notre",
+        "anlisis",
+        "qualitt",
+        "team",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 36,
+      "category": "services_qualite",
+      "topic_id": 15,
+      "topic_probability": 1.0,
+      "keywords": [
+        "satisfaction",
+        "financial",
+        "comptes",
+        "cabinets conseil",
+        "cabinets"
+      ]
+    },
+    {
+      "doc_id": 37,
+      "category": "services_qualite",
+      "topic_id": 16,
+      "topic_probability": 1.0,
+      "keywords": [
+        "servicio",
+        "equipo",
+        "calidad",
+        "partner",
+        "experiencia"
+      ]
+    },
+    {
+      "doc_id": 38,
+      "category": "services_qualite",
+      "topic_id": -1,
+      "topic_probability": 0.0,
+      "keywords": []
+    },
+    {
+      "doc_id": 39,
+      "category": "services_qualite",
+      "topic_id": 10,
+      "topic_probability": 0.6700664571420774,
+      "keywords": [
+        "engagement",
+        "waren",
+        "good",
+        "financial",
+        "fees"
+      ]
+    },
+    {
+      "doc_id": 40,
+      "category": "services_qualite",
+      "topic_id": 16,
+      "topic_probability": 1.0,
+      "keywords": [
+        "servicio",
+        "equipo",
+        "calidad",
+        "partner",
+        "experiencia"
+      ]
+    },
+    {
+      "doc_id": 41,
+      "category": "services_qualite",
+      "topic_id": 15,
+      "topic_probability": 1.0,
+      "keywords": [
+        "satisfaction",
+        "financial",
+        "comptes",
+        "cabinets conseil",
+        "cabinets"
+      ]
+    },
+    {
+      "doc_id": 42,
+      "category": "services_qualite",
+      "topic_id": 18,
+      "topic_probability": 1.0,
+      "keywords": [
+        "increasingly",
+        "given",
+        "fees",
+        "consulting industry",
+        "satisfaction"
+      ]
+    },
+    {
+      "doc_id": 43,
+      "category": "services_qualite",
+      "topic_id": 18,
+      "topic_probability": 1.0,
+      "keywords": [
+        "increasingly",
+        "given",
+        "fees",
+        "consulting industry",
+        "satisfaction"
+      ]
+    },
+    {
+      "doc_id": 44,
+      "category": "services_qualite",
+      "topic_id": 1,
+      "topic_probability": 1.0,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 45,
+      "category": "services_qualite",
+      "topic_id": 9,
+      "topic_probability": 0.09055853478668854,
+      "keywords": [
+        "transformacin",
+        "digital",
+        "firmas",
+        "grandes firmas",
+        "sector"
+      ]
+    },
+    {
+      "doc_id": 46,
+      "category": "rh_management",
+      "topic_id": 1,
+      "topic_probability": 0.5556554234659837,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 47,
+      "category": "rh_management",
+      "topic_id": 1,
+      "topic_probability": 0.7771329699058827,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 48,
+      "category": "rh_management",
+      "topic_id": 1,
+      "topic_probability": 1.0,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 49,
+      "category": "rh_management",
+      "topic_id": 1,
+      "topic_probability": 1.0,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 50,
+      "category": "rh_management",
+      "topic_id": 1,
+      "topic_probability": 0.7551612977413981,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 51,
+      "category": "rh_management",
+      "topic_id": 23,
+      "topic_probability": 1.0,
+      "keywords": [
+        "rotation",
+        "ans",
+        "dintrts",
+        "soulve",
+        "big"
+      ]
+    },
+    {
+      "doc_id": 52,
+      "category": "rh_management",
+      "topic_id": 6,
+      "topic_probability": 0.718160477568813,
+      "keywords": [
+        "culture",
+        "ses",
+        "increasingly",
+        "hours",
+        "branche"
+      ]
+    },
+    {
+      "doc_id": 53,
+      "category": "rh_management",
+      "topic_id": 6,
+      "topic_probability": 1.0,
+      "keywords": [
+        "culture",
+        "ses",
+        "increasingly",
+        "hours",
+        "branche"
+      ]
+    },
+    {
+      "doc_id": 54,
+      "category": "rh_management",
+      "topic_id": 6,
+      "topic_probability": 1.0,
+      "keywords": [
+        "culture",
+        "ses",
+        "increasingly",
+        "hours",
+        "branche"
+      ]
+    },
+    {
+      "doc_id": 55,
+      "category": "rh_management",
+      "topic_id": 8,
+      "topic_probability": 1.0,
+      "keywords": [
+        "good",
+        "entreprises",
+        "trabajo",
+        "hours",
+        "aos"
+      ]
+    },
+    {
+      "doc_id": 56,
+      "category": "rh_management",
+      "topic_id": 20,
+      "topic_probability": 1.0,
+      "keywords": [
+        "jai",
+        "secteur",
+        "soulve",
+        "rsultats",
+        "cabinet conseil"
+      ]
+    },
+    {
+      "doc_id": 57,
+      "category": "rh_management",
+      "topic_id": 8,
+      "topic_probability": 0.9048056434833733,
+      "keywords": [
+        "good",
+        "entreprises",
+        "trabajo",
+        "hours",
+        "aos"
+      ]
+    },
+    {
+      "doc_id": 58,
+      "category": "finance_performance",
+      "topic_id": 7,
+      "topic_probability": 0.26598382218798056,
+      "keywords": [
+        "revenue",
+        "financiers",
+        "financial",
+        "company",
+        "capgemini"
+      ]
+    },
+    {
+      "doc_id": 59,
+      "category": "finance_performance",
+      "topic_id": 7,
+      "topic_probability": 1.0,
+      "keywords": [
+        "revenue",
+        "financiers",
+        "financial",
+        "company",
+        "capgemini"
+      ]
+    },
+    {
+      "doc_id": 60,
+      "category": "finance_performance",
+      "topic_id": 7,
+      "topic_probability": 1.0,
+      "keywords": [
+        "revenue",
+        "financiers",
+        "financial",
+        "company",
+        "capgemini"
+      ]
+    },
+    {
+      "doc_id": 61,
+      "category": "finance_performance",
+      "topic_id": 9,
+      "topic_probability": 1.0,
+      "keywords": [
+        "transformacin",
+        "digital",
+        "firmas",
+        "grandes firmas",
+        "sector"
+      ]
+    },
+    {
+      "doc_id": 62,
+      "category": "finance_performance",
+      "topic_id": 9,
+      "topic_probability": 1.0,
+      "keywords": [
+        "transformacin",
+        "digital",
+        "firmas",
+        "grandes firmas",
+        "sector"
+      ]
+    },
+    {
+      "doc_id": 63,
+      "category": "finance_performance",
+      "topic_id": 22,
+      "topic_probability": 1.0,
+      "keywords": [
+        "jai",
+        "juniors",
+        "cest",
+        "secteur",
+        "analyse"
+      ]
+    },
+    {
+      "doc_id": 64,
+      "category": "finance_performance",
+      "topic_id": 1,
+      "topic_probability": 0.7614469648076431,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 65,
+      "category": "finance_performance",
+      "topic_id": 1,
+      "topic_probability": 0.3982486194051962,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 66,
+      "category": "finance_performance",
+      "topic_id": -1,
+      "topic_probability": 0.0,
+      "keywords": []
+    },
+    {
+      "doc_id": 67,
+      "category": "finance_performance",
+      "topic_id": 1,
+      "topic_probability": 1.0,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 68,
+      "category": "finance_performance",
+      "topic_id": 10,
+      "topic_probability": 1.0,
+      "keywords": [
+        "engagement",
+        "waren",
+        "good",
+        "financial",
+        "fees"
+      ]
+    },
+    {
+      "doc_id": 69,
+      "category": "finance_performance",
+      "topic_id": 10,
+      "topic_probability": 1.0,
+      "keywords": [
+        "engagement",
+        "waren",
+        "good",
+        "financial",
+        "fees"
+      ]
+    },
+    {
+      "doc_id": 70,
+      "category": "partenariat_strategie",
+      "topic_id": 4,
+      "topic_probability": 1.0,
+      "keywords": [
+        "capgemini",
+        "estratgica",
+        "consultora estratgica",
+        "soulve",
+        "modelo"
+      ]
+    },
+    {
+      "doc_id": 71,
+      "category": "partenariat_strategie",
+      "topic_id": 4,
+      "topic_probability": 1.0,
+      "keywords": [
+        "capgemini",
+        "estratgica",
+        "consultora estratgica",
+        "soulve",
+        "modelo"
+      ]
+    },
+    {
+      "doc_id": 72,
+      "category": "partenariat_strategie",
+      "topic_id": 4,
+      "topic_probability": 1.0,
+      "keywords": [
+        "capgemini",
+        "estratgica",
+        "consultora estratgica",
+        "soulve",
+        "modelo"
+      ]
+    },
+    {
+      "doc_id": 73,
+      "category": "partenariat_strategie",
+      "topic_id": 4,
+      "topic_probability": 1.0,
+      "keywords": [
+        "capgemini",
+        "estratgica",
+        "consultora estratgica",
+        "soulve",
+        "modelo"
+      ]
+    },
+    {
+      "doc_id": 74,
+      "category": "partenariat_strategie",
+      "topic_id": 4,
+      "topic_probability": 1.0,
+      "keywords": [
+        "capgemini",
+        "estratgica",
+        "consultora estratgica",
+        "soulve",
+        "modelo"
+      ]
+    },
+    {
+      "doc_id": 75,
+      "category": "partenariat_strategie",
+      "topic_id": 5,
+      "topic_probability": 1.0,
+      "keywords": [
+        "leurs",
+        "increasingly",
+        "dintrts",
+        "cest",
+        "firm"
+      ]
+    },
+    {
+      "doc_id": 76,
+      "category": "partenariat_strategie",
+      "topic_id": 5,
+      "topic_probability": 0.7514797291177077,
+      "keywords": [
+        "leurs",
+        "increasingly",
+        "dintrts",
+        "cest",
+        "firm"
+      ]
+    },
+    {
+      "doc_id": 77,
+      "category": "partenariat_strategie",
+      "topic_id": 5,
+      "topic_probability": 0.4657810034032384,
+      "keywords": [
+        "leurs",
+        "increasingly",
+        "dintrts",
+        "cest",
+        "firm"
+      ]
+    },
+    {
+      "doc_id": 78,
+      "category": "partenariat_strategie",
+      "topic_id": 3,
+      "topic_probability": 1.0,
+      "keywords": [
+        "notre",
+        "anlisis",
+        "qualitt",
+        "team",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 79,
+      "category": "partenariat_strategie",
+      "topic_id": 3,
+      "topic_probability": 1.0,
+      "keywords": [
+        "notre",
+        "anlisis",
+        "qualitt",
+        "team",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 80,
+      "category": "partenariat_strategie",
+      "topic_id": 20,
+      "topic_probability": 1.0,
+      "keywords": [
+        "jai",
+        "secteur",
+        "soulve",
+        "rsultats",
+        "cabinet conseil"
+      ]
+    },
+    {
+      "doc_id": 81,
+      "category": "partenariat_strategie",
+      "topic_id": 13,
+      "topic_probability": 1.0,
+      "keywords": [
+        "information",
+        "kpmg",
+        "companies",
+        "partner",
+        "company"
+      ]
+    },
+    {
+      "doc_id": 82,
+      "category": "innovation_tech",
+      "topic_id": 2,
+      "topic_probability": 1.0,
+      "keywords": [
+        "consultoras",
+        "trabajo",
+        "anlisis",
+        "modelo",
+        "juniors"
+      ]
+    },
+    {
+      "doc_id": 83,
+      "category": "innovation_tech",
+      "topic_id": 2,
+      "topic_probability": 1.0,
+      "keywords": [
+        "consultoras",
+        "trabajo",
+        "anlisis",
+        "modelo",
+        "juniors"
+      ]
+    },
+    {
+      "doc_id": 84,
+      "category": "innovation_tech",
+      "topic_id": 2,
+      "topic_probability": 1.0,
+      "keywords": [
+        "consultoras",
+        "trabajo",
+        "anlisis",
+        "modelo",
+        "juniors"
+      ]
+    },
+    {
+      "doc_id": 85,
+      "category": "innovation_tech",
+      "topic_id": 2,
+      "topic_probability": 1.0,
+      "keywords": [
+        "consultoras",
+        "trabajo",
+        "anlisis",
+        "modelo",
+        "juniors"
+      ]
+    },
+    {
+      "doc_id": 86,
+      "category": "innovation_tech",
+      "topic_id": 2,
+      "topic_probability": 1.0,
+      "keywords": [
+        "consultoras",
+        "trabajo",
+        "anlisis",
+        "modelo",
+        "juniors"
+      ]
+    },
+    {
+      "doc_id": 87,
+      "category": "innovation_tech",
+      "topic_id": 22,
+      "topic_probability": 1.0,
+      "keywords": [
+        "jai",
+        "juniors",
+        "cest",
+        "secteur",
+        "analyse"
+      ]
+    },
+    {
+      "doc_id": 88,
+      "category": "innovation_tech",
+      "topic_id": 2,
+      "topic_probability": 0.6453915049937368,
+      "keywords": [
+        "consultoras",
+        "trabajo",
+        "anlisis",
+        "modelo",
+        "juniors"
+      ]
+    },
+    {
+      "doc_id": 89,
+      "category": "innovation_tech",
+      "topic_id": 2,
+      "topic_probability": 0.8294164415945243,
+      "keywords": [
+        "consultoras",
+        "trabajo",
+        "anlisis",
+        "modelo",
+        "juniors"
+      ]
+    },
+    {
+      "doc_id": 90,
+      "category": "innovation_tech",
+      "topic_id": 2,
+      "topic_probability": 1.0,
+      "keywords": [
+        "consultoras",
+        "trabajo",
+        "anlisis",
+        "modelo",
+        "juniors"
+      ]
+    },
+    {
+      "doc_id": 91,
+      "category": "rse_ethique",
+      "topic_id": 8,
+      "topic_probability": 1.0,
+      "keywords": [
+        "good",
+        "entreprises",
+        "trabajo",
+        "hours",
+        "aos"
+      ]
+    },
+    {
+      "doc_id": 92,
+      "category": "rse_ethique",
+      "topic_id": 0,
+      "topic_probability": 1.0,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 93,
+      "category": "rse_ethique",
+      "topic_id": 0,
+      "topic_probability": 1.0,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 94,
+      "category": "rse_ethique",
+      "topic_id": 0,
+      "topic_probability": 1.0,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 95,
+      "category": "rse_ethique",
+      "topic_id": 0,
+      "topic_probability": 1.0,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 96,
+      "category": "rse_ethique",
+      "topic_id": 1,
+      "topic_probability": 1.0,
+      "keywords": [
+        "des",
+        "business",
+        "culture",
+        "clients",
+        "empfehlungen"
+      ]
+    },
+    {
+      "doc_id": 97,
+      "category": "rse_ethique",
+      "topic_id": 0,
+      "topic_probability": 1.0,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 98,
+      "category": "rse_ethique",
+      "topic_id": 0,
+      "topic_probability": 0.4995653466178692,
+      "keywords": [
+        "tax",
+        "esg",
+        "sector",
+        "ihre",
+        "partners"
+      ]
+    },
+    {
+      "doc_id": 99,
+      "category": "rse_ethique",
+      "topic_id": 24,
+      "topic_probability": 1.0,
+      "keywords": [
+        "plazo",
+        "nuestra",
+        "nos",
+        "sobre",
+        "pero"
+      ]
+    },
+    {
+      "doc_id": 100,
+      "category": "rse_ethique",
+      "topic_id": 24,
+      "topic_probability": 1.0,
+      "keywords": [
+        "plazo",
+        "nuestra",
+        "nos",
+        "sobre",
+        "pero"
+      ]
+    }
+  ]
+}

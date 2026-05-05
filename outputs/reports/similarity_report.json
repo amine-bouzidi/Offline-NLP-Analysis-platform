@@ -1,0 +1,10 @@
+{
+  "similar_pairs": [],
+  "deduplication": {
+    "original_size": 45,
+    "deduplicated_size": 45,
+    "removed_count": 0,
+    "duplicate_groups": 0,
+    "reduction_pct": 0.0
+  }
+}

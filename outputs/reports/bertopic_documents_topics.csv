@@ -1,0 +1,112 @@
+id,category,source_type,expected_language,language,language_confidence,original_text,cleaned_text,translated_text,was_translated,cleaned_translated_text,topic,topic_name,topic_probability
+0,unknown,csv,unknown,en,1.0,Apple Music roulette with:,apple music roulette with:,apple music roulette with:,False,apple music roulette with:,0,Apple / Inside / Thing,1.0
+1,unknown,csv,unknown,id,0.86,Mending namatin black clover atau 1 day 1 movie ya bingung ga apple to apple sih wkakak,mending namatin black clover atau day movie ya bingung ga apple to apple sih wkakak,mending namatin black clover atau day movie ya bingung ga apple to apple sih wkakak,False,mending namatin black clover atau movie bingung apple apple wkakak,1,Apple,1.0
+2,unknown,csv,unknown,ja,1.0,"Apple Pencilくんが行方不明だ
+いずれ出てくるとは思うが、一体何処なのか…",apple pencil ...,apple pencil ...,False,apple pencil,0,Apple / Inside / Thing,1.0
+3,unknown,csv,unknown,en,1.0,"Smart phones have replaced this part of iconic Americana. At the rate we’re headed,  Hot Dogs  Baseball  and Apple Pie  will be haram and offensive to other cultures. ","smart phones replaced part iconic americana. rate we’re headed, hot dogs baseball apple pie haram offensive other cultures.","smart phones replaced part iconic americana. rate we’re headed, hot dogs baseball apple pie haram offensive other cultures.",False,"smart phones replaced iconic americana. rate we’re headed, dogs baseball apple haram offensive cultures.",1,Apple,0.3845434033854013
+4,unknown,csv,unknown,en,1.0,"If I upload that Apple Music thing, it'll give away that I'm using these cheap-ass earbuds.","upload apple music thing, it'll give away i'm using cheap-ass earbuds.","upload apple music thing, it'll give away i'm using cheap-ass earbuds.",False,"upload apple music thing, it'll away cheap-ass earbuds.",0,Apple / Inside / Thing,0.34016364642602404
+5,unknown,csv,unknown,ja,1.0,Appleマップゴミすぎて東海道新幹線のリンクをJR東日本にしている,apple jr,apple jr,False,apple,0,Apple / Inside / Thing,1.0
+6,unknown,csv,unknown,en,1.0,"UI wise Apple maps, but for accuracy Google maps","ui wise apple maps, accuracy google maps","ui wise apple maps, accuracy google maps",False,"wise apple maps, accuracy google maps",0,Apple / Inside / Thing,0.38553032651931635
+7,unknown,csv,unknown,en,1.0,"BR Daily Deals 
+
+ Dropped $463.32 below the average!
+ Price well below normal
+
+--- | Amazon 5.5 Deals
+
+Grab yours now 
+
+Link: 
+amazon.com.br/dp/B0FQGTT4V7?
+…
+
+For $10,709.10
+Free Shipping
+
+Apple iPhone 17 Pro Max 256GB Silver
+
+Amazon | Smartphone","br daily deals dropped $463.32 below average! price well below normal --- amazon 5.5 deals grab yours now link: amazon.com.br/dp/b0fqgtt4v7? ... $10,709.10 free shipping apple iphone 17 pro max 256gb silver amazon smartphone","br daily deals dropped $463.32 below average! price well below normal --- amazon 5.5 deals grab yours now link: amazon.com.br/dp/b0fqgtt4v7? ... $10,709.10 free shipping apple iphone 17 pro max 256gb silver amazon smartphone",False,"daily deals dropped $463.32 average! price normal amazon deals grab yours link: amazon.com.br/dp/b0fqgtt4v7? $10,709.10 free shipping apple iphone 256gb silver amazon smartphone",2,Guide / Amazon / Apple,0.4908749812631002
+8,unknown,csv,unknown,ja,1.0,"Mrs. GREEN APPLE「ZENJIN MITO TO IM/MUTABLE」チケットのお譲り先を探しています
+
+譲 5/4 アリーナエリア
+
+求  定価〜
+
+ᴊᴀᴍꜱの方にお譲りさせて頂きたいです
+ #ミセス譲  #Mrs譲",mrs. green apple zenjin mito to im/mutable 5/4 ᴊᴀᴍ,mrs. green apple zenjin mito to im/mutable 5/4 ᴊᴀᴍ,False,mrs. green apple zenjin mito im/mutable,1,Apple,1.0
+9,unknown,csv,unknown,en,1.0," Asake now occupies the entire TOP 10 on the NG Apple Top Songs Chart with songs from ""M$NEY"" ","asake now occupies entire top 10 ng apple top songs chart songs ""m$ney""","asake now occupies entire top 10 ng apple top songs chart songs ""m$ney""",False,"asake occupies entire apple songs chart songs ""m$ney""",1,Apple,0.4330843934477557
+10,unknown,csv,unknown,en,1.0,"New update for the Apple Support app, version 5.13, dropped and it has a surprise  
+Claude.md files appeared by mistake inside the update  
+These files are used to guide Claude in programming tasks  
+
+Looks like Apple is relying on Claude for now in developing its apps   
+
+They","new update apple support app, version 5.13, dropped surprise claude.md files appeared mistake inside update files used guide claude programming tasks looks like apple relying claude now developing apps","new update apple support app, version 5.13, dropped surprise claude.md files appeared mistake inside update files used guide claude programming tasks looks like apple relying claude now developing apps",False,"update apple support app, version 5.13, dropped surprise claude.md files appeared mistake inside update files guide claude programming tasks looks like apple relying claude developing apps",0,Apple / Inside / Thing,0.3853667051978033
+11,unknown,csv,unknown,en,1.0,"iPhone might finally reach this point  
+With iOS 27  
+Rumors of adding a ""Camera with Siri Mode""  
+・Voice-activated shooting  
+・AI composition adjustment  
+・Automatic optimal settings  
+It's no longer the era of ""taking"" photos  
+But the era of ""entrusting"" them is coming","iphone finally reach point ios 27 rumors adding ""camera siri mode"" voice-activated shooting ai composition adjustment automatic optimal settings it's longer era ""taking"" photos era ""entrusting"" them coming","iphone finally reach point ios 27 rumors adding ""camera siri mode"" voice-activated shooting ai composition adjustment automatic optimal settings it's longer era ""taking"" photos era ""entrusting"" them coming",False,"iphone finally reach rumors adding ""camera siri mode"" voice-activated shooting composition adjustment automatic optimal settings it's longer ""taking"" photos ""entrusting"" coming",-1,Outliers / Noise,0.2672755858274513
+12,unknown,csv,unknown,de,1.0,Aktien New York Ausblick: Dow im Plus erwartet - Apple-Zahlen beflügeln Aktie,aktien new york ausblick: dow im plus erwartet apple-zahlen beflügeln aktie,sharen new york outlook: dow in plus expected apple numbers inspire share,True,sharen york outlook: plus expected apple numbers inspire share,2,Guide / Amazon / Apple,0.46241415449464374
+13,unknown,csv,unknown,en,0.86,apple hairstyle hdkshdksshsksh ,apple hairstyle hdkshdksshsksh,apple hairstyle hdkshdksshsksh,False,apple hairstyle hdkshdksshsksh,1,Apple,0.46868941597358765
+14,unknown,csv,unknown,en,1.0,'Margot Has Money Troubles' on Apple TV involves some wrestling. Chris Jericho apparently in a lead role. ...  ...,'margot money troubles' apple tv involves some wrestling. chris jericho apparently lead role. ... ...,'margot money troubles' apple tv involves some wrestling. chris jericho apparently lead role. ... ...,False,'margot money troubles' apple involves wrestling. chris jericho apparently lead role.,1,Apple,1.0
+15,unknown,csv,unknown,en,1.0,“Everyone thought the apple just fell on Newton… but we threw it.”,“everyone thought apple just fell newton... threw it.”,“everyone thought apple just fell newton... threw it.”,False,“everyone thought apple fell newton... threw it.”,1,Apple,0.42240150037241253
+16,unknown,csv,unknown,en,1.0,"After upgrading to iOS 26.5 beta 4  
+X hasn't received any notifications  
+Checked Twitter today  
+They say it's probably the country cracking down again  
+The fix is to add Apple notifications to the proxy too, not direct connection  
+Tried it and sure enough, notifications are","after upgrading ios 26.5 beta hasn't received any notifications checked twitter today say it's probably country cracking down again fix add apple notifications proxy too, direct connection tried sure enough, notifications","after upgrading ios 26.5 beta hasn't received any notifications checked twitter today say it's probably country cracking down again fix add apple notifications proxy too, direct connection tried sure enough, notifications",False,"upgrading 26.5 beta hasn't received notifications checked twitter today it's probably country cracking apple notifications proxy too, direct connection tried sure enough, notifications",0,Apple / Inside / Thing,0.27721768724247686
+17,unknown,csv,unknown,en,1.0,"Own it, don't trade it! 
+@DivesTech
+ and 
+@jimcramer
+ are staunch believers in Apple through thick and thin! When the hot air is rocking the boat, it's just great to have a voice of reason to help guide you through. Added to my position yesterday. Love the results...and the guide","own it, don't trade it! staunch believers apple through thick thin! when hot air rocking boat, it's just great voice reason help guide through. added position yesterday. love results...and guide","own it, don't trade it! staunch believers apple through thick thin! when hot air rocking boat, it's just great voice reason help guide through. added position yesterday. love results...and guide",False,"don't trade staunch believers apple thick thin! rocking boat, it's voice reason help guide through. added position yesterday. love results...and guide",2,Guide / Amazon / Apple,1.0
+18,unknown,csv,unknown,en,1.0,"Tim Cook is stepping down.
+He didn’t replace Steve Jobs, he rebuilt Apple’s engine.
+From a visionary-led company to a trillion-dollar system.
+What actually changed inside Apple?
+
+Full breakdown this Sunday.
+
+#Apple #TimCook #SteveJobs #Business #Tech","tim cook stepping down. didn’t replace steve jobs, rebuilt apple’s engine. visionary-led company trillion-dollar system. what actually changed inside apple? full breakdown sunday.","tim cook stepping down. didn’t replace steve jobs, rebuilt apple’s engine. visionary-led company trillion-dollar system. what actually changed inside apple? full breakdown sunday.",False,"cook stepping down. didn’t replace steve jobs, rebuilt apple’s engine. visionary-led company trillion-dollar system. actually changed inside apple? full breakdown sunday.",2,Guide / Amazon / Apple,1.0
+19,unknown,csv,unknown,en,1.0,Women are so sucked in.  No wonder Eve ate the apple ,women sucked in. wonder eve ate apple,women sucked in. wonder eve ate apple,False,women sucked wonder apple,1,Apple,0.4733889090585524
+20,unknown,csv,unknown,es,1.0,"me quede pensando lo que dijiste, estaba por ponerme a debatir si eran o no... la realidad es que no creo que importe a nivel negocio... lo unico importante es que tengas a mano: el mejor LLM o al menos seas la infra para poder correr el qeu quiera el cliente. Y apple, esta","me quede pensando lo dijiste, estaba ponerme debatir si eran no... realidad creo importe nivel negocio... lo unico importante tengas mano: mejor llm al menos seas infra poder correr qeu quiera cliente. apple, esta","I kept thinking you said it, I was debating if they were no... I really think it matters level of business... the only important thing have a hand: better lmlm at least be below being able to run whatever customer wants. apple, this",True,"kept thinking debating no... matters level business... important thing hand: better lmlm least able whatever customer wants. apple,",2,Guide / Amazon / Apple,1.0
+21,unknown,csv,unknown,en,1.0,it doesn’t work for apple music ?? i can’t see it :(,doesn’t work apple music ?? can’t see :(,doesn’t work apple music ?? can’t see :(,False,doesn’t apple music can’t,0,Apple / Inside / Thing,0.4710200248963695
+22,unknown,csv,unknown,en,1.0,"People aren’t opening the WSJ and reading an article about Buffett buying Apple and wondering what it will reflect in terms of the number of shares, but the price. It is simple, you’re making it complicated.","people aren’t opening wsj reading article about buffett buying apple wondering what reflect terms number shares, price. simple, you’re making complicated.","people aren’t opening wsj reading article about buffett buying apple wondering what reflect terms number shares, price. simple, you’re making complicated.",False,"people aren’t opening reading article buffett buying apple wondering reflect terms number shares, price. simple, you’re complicated.",2,Guide / Amazon / Apple,1.0
+23,unknown,csv,unknown,en,1.0,"The Shuroo Process (2021) 
+
+What is it about? 
+Mockumentary of self help gurus and wellness retreats 
+
+You can find it on: Apple TV, Amazon Prime Video, Sky Store, Google Play store and sailing the high seas 
+: 
+boxd.it/xc2e","shuroo process (2021) what about? mockumentary self help gurus wellness retreats find on: apple tv, amazon prime video, sky store, google play store sailing high seas boxd.it/xc2e","shuroo process (2021) what about? mockumentary self help gurus wellness retreats find on: apple tv, amazon prime video, sky store, google play store sailing high seas boxd.it/xc2e",False,"shuroo process (2021) about? mockumentary self help gurus wellness retreats apple amazon prime video, store, google play store sailing seas boxd.it/xc2e",-1,Outliers / Noise,0.3393921691904105
+24,unknown,csv,unknown,en,1.0,"From Apple (AAPL) to Starbucks (SBUX), this week has brought some shockingly better-than-expected first quarter earnings reports. To explore and dive deeper, try Wealthnx 
+cutt.ly/qtLr7IKd
+#Apple #stocks #markets #FAANG #starbucks","apple (aapl) starbucks (sbux), week brought some shockingly better-than-expected first quarter earnings reports. explore dive deeper, try wealthnx cutt.ly/qtlr7ikd","apple (aapl) starbucks (sbux), week brought some shockingly better-than-expected first quarter earnings reports. explore dive deeper, try wealthnx cutt.ly/qtlr7ikd",False,"apple (aapl) starbucks (sbux), week brought shockingly better-than-expected quarter earnings reports. explore dive deeper, wealthnx cutt.ly/qtlr7ikd",2,Guide / Amazon / Apple,0.5710273906759658
+25,unknown,csv,unknown,en,1.0,APPLE IM CRYING AT THIS PLSSSSS HFHSDHHSVSSH,apple im crying plsssss hfhsdhhsvssh,apple im crying plsssss hfhsdhhsvssh,False,apple crying plsssss hfhsdhhsvssh,1,Apple,1.0
+26,unknown,csv,unknown,en,1.0,"Premium trading analysis: 
+@juliaxxxgenesis
+. He shares high-precision bullish signals daily on X. This is a must-follow account.
+
+#stock #SP500 
+$SAGT
+  
+#Apple #StockMarket 
+$YSS
+ $BRK.B",premium trading analysis: shares high-precision bullish signals daily x. must-follow account. $sagt $yss $brk.b,premium trading analysis: shares high-precision bullish signals daily x. must-follow account. $sagt $yss $brk.b,False,premium trading analysis: shares high-precision bullish signals daily must-follow account. $sagt $yss $brk.b,2,Guide / Amazon / Apple,0.5281069762649746
+27,unknown,csv,unknown,ja,1.0,"国民の移動データが他国に奪われるってさぁ、今でもApple CarPlayで移動データなんてダダ漏れだろ。屁理屈にもならん
+
+選択肢は多いほうが良いだろ
+自分は使わないけど
+
+リスクを取らないように高い金をはらうか、安い料金でリスクを取るのか、決定権は顧客側にある、でいいんじゃね？
+
+ #アベプラ",apple carplay,apple carplay,False,apple carplay,0,Apple / Inside / Thing,1.0
+28,unknown,csv,unknown,en,1.0,"From Brand Designer to Product Designer at Apple: Deborah’s career story 
+paiger.link/1800554721",brand designer product designer apple: deborah’s career story paiger.link/1800554721,brand designer product designer apple: deborah’s career story paiger.link/1800554721,False,brand designer product designer apple: deborah’s career story paiger.link/1800554721,-1,Outliers / Noise,0.25631795111934375
+29,unknown,csv,unknown,ja,1.0,バイトのオリとして渡された資料でApple Watchは時計ではないって書かれてて声出た(出てない),apple watch,apple watch,False,apple watch,0,Apple / Inside / Thing,0.5813351394600716

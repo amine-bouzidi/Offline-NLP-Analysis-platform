@@ -1,0 +1,2 @@
+client,reliability_score,classification,engager_pct,neutre_pct,eviter_pct,total_tweets,confidence,top_keywords,breakdown
+UNKNOWN,54.0,NEUTRE,10.0,90.0,0.0,30,0.0,"['help', 'support']","{'engager': 3, 'neutre': 27, 'eviter': 0}"

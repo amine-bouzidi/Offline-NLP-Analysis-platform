@@ -1,0 +1,1266 @@
+{
+  "metadata": {
+    "total_documents": 100,
+    "n_topics": 10,
+    "n_outliers": 13,
+    "outlier_rate": 13.0,
+    "embedding_model": "BAAI/bge-m3",
+    "bertopic_params": {
+      "umap_n_components": 15,
+      "umap_metric": "cosine",
+      "hdbscan_min_cluster_size": 4,
+      "hdbscan_min_samples": 2,
+      "hdbscan_metric": "euclidean"
+    },
+    "languages": {
+      "fr": 22,
+      "en": 22,
+      "ar": 19,
+      "de": 19,
+      "es": 18
+    },
+    "categories": {
+      "audit_conformite": 15,
+      "reputation_scandale": 15,
+      "services_qualite": 15,
+      "rh_management": 12,
+      "finance_performance": 12,
+      "partenariat_strategie": 12,
+      "innovation_tech": 9,
+      "rse_ethique": 10
+    }
+  },
+  "topics": {
+    "-1": {
+      "topic_name": "Outliers / Noise",
+      "n_documents": 13,
+      "top_keywords": [
+        "consulting",
+        "culture",
+        "talent",
+        "career",
+        "companies",
+        "firm",
+        "client"
+      ],
+      "categories": {
+        "services_qualite": 4,
+        "rh_management": 4,
+        "reputation_scandale": 3,
+        "audit_conformite": 1,
+        "finance_performance": 1
+      },
+      "languages": {
+        "en": 4,
+        "de": 3,
+        "es": 3,
+        "ar": 2,
+        "fr": 1
+      },
+      "sources": {
+        "press": 6,
+        "social": 5,
+        "verified": 2
+      },
+      "documents": [
+        {
+          "id": 12,
+          "category": "audit_conformite",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "KPMG has agreed to pay $200 million to settle SEC charges related to audit failures at several client companies. The regulator found that KPMG partners had improperly obtained confidential information about upcoming inspections. The settlement includes enhanced compliance measures and independent monitoring.",
+          "translated_text": "kpmg agreed pay $200 million settle sec charges related audit failures several client companies. regulator found kpmg partners improperly obtained confidential information about upcoming inspections. settlement includes enhanced compliance measures independent monitoring.",
+          "topic_probability": 0.0920983121713459
+        },
+        {
+          "id": 24,
+          "category": "reputation_scandale",
+          "language": "de",
+          "source_type": "social",
+          "original_text": "Ich frage mich, warum niemand diese Beratungsunternehmen zur Rechenschaft zieht, wenn ihre Empfehlungen zu Massenentlassungen oder Unternehmenszusammenbrüchen führen. Sie kassieren ihre Millionenhonorare und sind dann weg. Keine Haftung, keine Konsequenzen. Das System ist grundlegend falsch.",
+          "translated_text": "ask me why no one draws these consulting companies to account when their recommendations lead to mass redundancies business collapses. then collect their millions of dollars away. no liability, no consequences. system fundamentally wrong.",
+          "topic_probability": 0.11757744314455261
+        },
+        {
+          "id": 26,
+          "category": "reputation_scandale",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Accenture fait face à un recours collectif de ses anciens employés qui dénoncent une culture de travail toxique et des pratiques discriminatoires. Les plaignants allèguent que le cabinet favorise systématiquement certains profils au détriment de la diversité malgré ses engagements publics affichés.",
+          "translated_text": "accenture face class action its former employees denounce culture work toxic discriminatory practices. complainants alleged firm systematically favors certain profiles prejudice diversity despite its public commitments posted.",
+          "topic_probability": 0.10210119823981896
+        },
+        {
+          "id": 27,
+          "category": "reputation_scandale",
+          "language": "en",
+          "source_type": "verified",
+          "original_text": "We terminated our contract with the firm after discovering they had shared our proprietary market data with a competitor client. Despite their assurances about information barriers, it was clear those barriers didn't exist in practice. The reputational damage to our company was significant and we are pursuing legal action.",
+          "translated_text": "terminated contract firm after discovering shared proprietary market data competitor client. despite assurances about information barriers, clear barriers didn't exist practice. reputational damage company significant pursuing legal action.",
+          "topic_probability": 0.10098960449312153
+        },
+        {
+          "id": 37,
+          "category": "services_qualite",
+          "language": "en",
+          "source_type": "social",
+          "original_text": "Consulting quality is really hit or miss. Had an amazing experience with one firm that completely transformed our operations and a terrible one with another that delivered a generic slide deck with our logo on it. The difference often comes down to the specific partner leading your engagement.",
+          "translated_text": "consulting quality really hit miss. amazing experience one firm completely transformed operations terrible one another delivered generic slide deck logo it. difference often comes down specific partner leading engagement.",
+          "topic_probability": 0.08047068029483662
+        },
+        {
+          "id": 40,
+          "category": "services_qualite",
+          "language": "es",
+          "source_type": "social",
+          "original_text": "La calidad del servicio de consultoría depende enormemente del equipo asignado. Con el mismo proveedor tuvimos una experiencia excelente en el primer proyecto y mediocre en el segundo porque cambiaron al equipo. La continuidad del equipo es crucial para mantener la calidad del servicio.",
+          "translated_text": "quality consulting service depends enormously on assigned equipment. same supplier we had excellent first second mediocre project experience because they changed the team.Continuity crucial equipment maintain quality service.",
+          "topic_probability": 0.08736144657408892
+        },
+        {
+          "id": 43,
+          "category": "services_qualite",
+          "language": "ar",
+          "source_type": "press",
+          "original_text": "استطلاع رأي عملاء شركات الاستشارات في المنطقة العربية يكشف عن مستوى رضا متوسط. يُثني العملاء على الكفاءة التقنية لهذه الشركات لكنهم يشككون في مدى تكييف حلولها مع الخصوصية الثقافية والتنظيمية للأسواق العربية. الطلب على الاستشارات المحلية المتخصصة يتنامى.",
+          "translated_text": "The survey of clients of consulting firms in the Arab region reveals a medium level of satisfaction. Clients discourage the technical competence of these companies, but they question the extent to which their solutions are adapted to the cultural and organizational specificities of Arab markets.",
+          "topic_probability": 0.23129449480273623
+        },
+        {
+          "id": 44,
+          "category": "services_qualite",
+          "language": "de",
+          "source_type": "social",
+          "original_text": "Als jemand, der auf beiden Seiten des Tisches saß – als Berater und als Klient – kann ich sagen: Der größte Mehrwert entsteht, wenn das Beratungsteam wirklich zuhört und die Empfehlungen auf die spezifische Situation des Unternehmens zuschneidet. Generische Ansätze sind Geldverschwendung.",
+          "translated_text": "someone who sat on both sides of the table consultant client can say: greatest added value arises when consulting team really listens recommendations cut specific situation of the company. generic approaches waste of money.",
+          "topic_probability": 0.09604659435289105
+        },
+        {
+          "id": 52,
+          "category": "rh_management",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "Consulting firms are facing a talent crisis as Gen Z workers increasingly reject the grueling hours and up-or-out culture that defined the industry. Firms are being forced to rethink their employee value proposition, offering more flexibility, mental health support and clearer career progression.",
+          "translated_text": "consulting firms facing talent crisis gen workers increasingly reject grueling hours up-or-out culture defined industry. firms being forced rethink employee value proposition, offering more flexibility, mental health support clearer career progression.",
+          "topic_probability": 0.08980667964606888
+        },
+        {
+          "id": 53,
+          "category": "rh_management",
+          "language": "ar",
+          "source_type": "press",
+          "original_text": "تواجه شركات الاستشارات الكبرى أزمة استقطاب مواهب حادة في ظل تنافس متصاعد من شركات التكنولوجيا التي تقدم ظروف عمل أفضل وثقافة أكثر صحة. الجيل الجديد من الخريجين يرفض نموذج العمل الاستشاري التقليدي ويبحث عن معنى أعمق في مسيرته المهنية.",
+          "translated_text": "Large consulting firms are facing a crisis of acute talent attractions that has continued to compete with technology companies that offer better working conditions and a healthier culture. The new generation of graduates reject the traditional consulting model and explores the meaning of its deeper career.",
+          "topic_probability": 0.07174240571731477
+        },
+        {
+          "id": 54,
+          "category": "rh_management",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Unternehmensberatungen kämpfen um Talente: Immer mehr High Potentials bevorzugen Technologieunternehmen oder Startups gegenüber klassischen Beratungskarrieren. Die Branche reagiert mit flexibleren Arbeitsmodellen, höheren Gehältern und neuen Karrierepfaden außerhalb der traditionellen Partner-Pyramide.",
+          "translated_text": "corporate consulting struggle for talent: more and more high potentials prefer technology companies startups compared to classic consulting careers. industry responds more flexible working models, higher salaries new career paths outside traditional partner pyramids.",
+          "topic_probability": 0.10887961528539535
+        },
+        {
+          "id": 55,
+          "category": "rh_management",
+          "language": "es",
+          "source_type": "verified",
+          "original_text": "Como ex-empleado de una firma de consultoría, debo reconocer que la formación y el aprendizaje que recibí fueron excepcionales. Sin embargo, la cultura de trabajo no era sostenible a largo plazo. La firma ha mejorado mucho en los últimos años con iniciativas de bienestar, pero aún queda camino por recorrer.",
+          "translated_text": "ex-employee firm consulting, I must recognize learning training I received were exceptional. however, work culture was sustainable long term. firm has improved much last years well-being initiatives, but there is still way to go.",
+          "topic_probability": 0.07340344635693952
+        },
+        {
+          "id": 67,
+          "category": "finance_performance",
+          "language": "es",
+          "source_type": "social",
+          "original_text": "Los honorarios de las grandes consultoras son astronómicos y no siempre justificados por los resultados. He visto proyectos de transformación que costaron decenas de millones y terminaron en fracaso. La industria necesita más accountability y métricas claras de retorno sobre la inversión en consultoría.",
+          "translated_text": "big astronomical consulting fees always justified results.I have seen transformation projects cost tens millions ended failure. industry needs more accountability metrics clear return on investment consulting.",
+          "topic_probability": 0.09488924848266678
+        }
+      ]
+    },
+    "0": {
+      "topic_name": "Team / Recommendations / Excellent",
+      "n_documents": 19,
+      "top_keywords": [
+        "team",
+        "recommendations",
+        "excellent",
+        "firm",
+        "strategic",
+        "clear",
+        "professional"
+      ],
+      "categories": {
+        "services_qualite": 6,
+        "audit_conformite": 3,
+        "finance_performance": 3,
+        "reputation_scandale": 2,
+        "partenariat_strategie": 2,
+        "rse_ethique": 2,
+        "rh_management": 1
+      },
+      "languages": {
+        "de": 5,
+        "es": 5,
+        "ar": 3,
+        "fr": 3,
+        "en": 3
+      },
+      "sources": {
+        "verified": 18,
+        "press": 1
+      },
+      "documents": [
+        {
+          "id": 9,
+          "category": "audit_conformite",
+          "language": "de",
+          "source_type": "verified",
+          "original_text": "Unsere Erfahrung mit dem Audit-Team war insgesamt positiv. Die Prüfer waren gründlich und haben auch kritische Fragen gestellt. Allerdings haben wir festgestellt, dass die Qualität stark vom jeweiligen Prüfungsleiter abhängt. Beim Wechsel des Teams haben wir deutliche Unterschiede gemerkt.",
+          "translated_text": "our experience was positive for the audit team as a whole. examiners were thoroughly asked critical questions. however, they have found that quality depends heavily on the respective test manager. when changing the team, clear differences have been noted.",
+          "topic_probability": 0.2829568712583489
+        },
+        {
+          "id": 13,
+          "category": "audit_conformite",
+          "language": "ar",
+          "source_type": "verified",
+          "original_text": "تعاملنا مع فريق التدقيق على مدار ثلاث سنوات وكانت التجربة مهنية بامتياز. الفريق كان دقيقاً في عمله ومحترفاً في تعاملاته، وأبدى ملاحظات بناءة ساعدتنا على تحسين إجراءاتنا المحاسبية الداخلية. نوصي بهم لأي شركة تبحث عن مدقق موثوق.",
+          "translated_text": "We handled the audit team for three years, and the experiment was professional and excellent. The team was thorough and professional, and made constructive remarks that helped us improve our internal accounting procedures.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 15,
+          "category": "audit_conformite",
+          "language": "es",
+          "source_type": "verified",
+          "original_text": "Llevamos cinco años trabajando con el mismo equipo de auditoría y el servicio ha sido excelente. Son rigurosos, siempre disponibles para consultas y sus informes son claros y detallados. Han añadido valor real a nuestra empresa más allá de la simple verificación contable.",
+          "translated_text": "We have been working for five years the same audit service team has been excellent. rigorous, always available queries your detailed clear reports. added real value our company beyond simple accounting verification.",
+          "topic_probability": 0.6929300473774785
+        },
+        {
+          "id": 28,
+          "category": "reputation_scandale",
+          "language": "ar",
+          "source_type": "verified",
+          "original_text": "أنهينا تعاملنا مع الشركة الاستشارية إثر اكتشافنا أن مستشاريهم كانوا يقدمون لنا توصيات متحيزة لصالح موردين معينين لهم علاقات تجارية معهم. الأمانة والاستقلالية شرطان أساسيان في أي علاقة استشارية، وللأسف لم نجدهما هناك.",
+          "translated_text": "We ended our dealings with the consulting firm after we discovered their consultants, who were making biased recommendations for certain suppliers with whom they had business relations.",
+          "topic_probability": 0.11039064930670847
+        },
+        {
+          "id": 30,
+          "category": "reputation_scandale",
+          "language": "es",
+          "source_type": "verified",
+          "original_text": "Tuvimos una experiencia muy negativa con esta firma. Sus consultores presentaron un informe estratégico que luego descubrimos era casi idéntico al que habían presentado a un competidor nuestro. La falta de originalidad y el evidente conflicto de intereses nos llevó a romper el contrato inmediatamente.",
+          "translated_text": "We had very negative experience this firm. its consultants presented strategic report then we discovered it was almost identical to our competitor had presented. lack of originality evident conflict interests led us to break contract immediately.",
+          "topic_probability": 0.10876744724052276
+        },
+        {
+          "id": 31,
+          "category": "services_qualite",
+          "language": "fr",
+          "source_type": "verified",
+          "original_text": "Notre collaboration avec ce cabinet de conseil a été très satisfaisante. Les consultants ont fait preuve d'une grande expertise dans notre secteur et ont livré des analyses pertinentes qui ont directement influencé notre stratégie d'expansion. Le rapport qualité-prix est excellent pour une firme de ce calibre.",
+          "translated_text": "our collaboration consulting firm was satisfactory. consultants demonstrate great expertise our sector delivered relevant analyses directly influenced our expansion strategy. quality-price ratio excellent firm caliber.",
+          "topic_probability": 0.23960742762432216
+        },
+        {
+          "id": 32,
+          "category": "services_qualite",
+          "language": "en",
+          "source_type": "verified",
+          "original_text": "The consulting team exceeded our expectations on every front. Their due diligence report was thorough, well-structured and identified risks we hadn't considered. The team was responsive, professional and demonstrated deep industry knowledge. We will definitely work with them again on future projects.",
+          "translated_text": "consulting team exceeded expectations every front. due diligence report thorough, well-structured identified risks hadn't considered. team responsive, professional demonstrated deep industry knowledge. definitely work them again future projects.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 33,
+          "category": "services_qualite",
+          "language": "ar",
+          "source_type": "verified",
+          "original_text": "قدمت لنا الشركة الاستشارية خدمة احترافية رفيعة المستوى. فريق العمل كان على دراية واسعة بقطاعنا، وقدم تحليلات دقيقة ساعدتنا على اتخاذ قرارات استثمارية مدروسة. التقرير النهائي كان شاملاً ومفصلاً وتجاوز توقعاتنا من حيث الجودة والعمق.",
+          "translated_text": "The consulting firm provided us with a high-level professional service. The task force was very familiar with our sector, and it provided thorough analyses that helped us make informed investment decisions.",
+          "topic_probability": 0.5112281570041163
+        },
+        {
+          "id": 34,
+          "category": "services_qualite",
+          "language": "de",
+          "source_type": "verified",
+          "original_text": "Die Beratungsleistung war insgesamt hervorragend. Das Team hat unsere Branche schnell durchdrungen und lieferte innerhalb kurzer Zeit wertvolle Einblicke. Besonders beeindruckend war die Qualität der Datenanalyse und die Klarheit der strategischen Empfehlungen. Wir würden sie uneingeschränkt weiterempfehlen.",
+          "translated_text": "team quickly penetrated our industry provided valuable insights within a short time. especially impressive quality data analysis clarity strategic recommendations. would fully recommend.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 35,
+          "category": "services_qualite",
+          "language": "es",
+          "source_type": "verified",
+          "original_text": "El equipo de consultoría demostró un conocimiento profundo de nuestro sector y entregó un análisis estratégico de alta calidad. Las recomendaciones fueron prácticas, bien fundamentadas y adaptadas a nuestra realidad empresarial. La comunicación fue fluida durante todo el proyecto y los plazos se cumplieron.",
+          "translated_text": "consulting team demonstrated deep knowledge our sector delivered high quality strategic analysis. recommendations were practical, well-founded adapted our business reality. fluid communication during every project deadlines were fulfilled.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 39,
+          "category": "services_qualite",
+          "language": "de",
+          "source_type": "verified",
+          "original_text": "Wir haben mit dem Beratungsunternehmen ein komplexes Restrukturierungsprojekt durchgeführt. Die Qualität der Arbeit war hoch, aber die Kosten waren erheblich. Letztendlich hat sich die Investition gelohnt, da die empfohlenen Maßnahmen zu einer deutlichen Effizienzsteigerung geführt haben.",
+          "translated_text": "the consulting company carried out complex restructuring project. high quality work, costs were considerable. in the end, investment was worthwhile, as recommended measures have led to a significant increase in efficiency.",
+          "topic_probability": 0.3659999030703525
+        },
+        {
+          "id": 57,
+          "category": "rh_management",
+          "language": "en",
+          "source_type": "verified",
+          "original_text": "My experience at the firm was overall positive. The training programs are world-class and the exposure to senior leadership and complex business problems accelerated my development enormously. The hours were long but manageable with good time management. I left on good terms to pursue an industry role.",
+          "translated_text": "experience firm overall positive. training programs world-class exposure senior leadership complex business problems accelerated development enormously. hours long manageable good time management. left good terms pursue industry role.",
+          "topic_probability": 0.16276992472213941
+        },
+        {
+          "id": 58,
+          "category": "finance_performance",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Les résultats financiers du groupe Capgemini pour le premier semestre dépassent les attentes des analystes avec une croissance du chiffre d'affaires de 8,3% en organique. La marge opérationnelle s'améliore de 40 points de base à 13,2% grâce aux efforts de productivité et à la montée en gamme des offres.",
+          "translated_text": "financial results group capgemini first semester exceed expectations analysts growth turnover 8.3% in organic. operating margin improves 40 basis points 13.2% thanks to efforts productivity raised in range offers.",
+          "topic_probability": 0.2278209928930465
+        },
+        {
+          "id": 68,
+          "category": "finance_performance",
+          "language": "fr",
+          "source_type": "verified",
+          "original_text": "Le ROI de notre engagement avec ce cabinet a été clairement démontrable : réduction des coûts opérationnels de 18% en 18 mois, amélioration de la satisfaction client de 22 points NPS. Les honoraires élevés sont justifiés quand les résultats sont au rendez-vous et mesurables.",
+          "translated_text": "our commitment firm was clearly demonstrable reduction operating costs 18% in 18 months, improvement customer satisfaction 22 points nps. high fees justified when results appointment measurable.",
+          "topic_probability": 0.29519287419855494
+        },
+        {
+          "id": 69,
+          "category": "finance_performance",
+          "language": "en",
+          "source_type": "verified",
+          "original_text": "The engagement delivered clear financial returns: we reduced our supply chain costs by 23% and improved working capital by $50M. The fees were significant but the ROI was unambiguous. Good consulting pays for itself many times over when the recommendations are actually implemented.",
+          "translated_text": "engagement delivered clear financial returns: reduced supply chain costs 23% improved working capital $50m. fees significant roi unambiguous. good consulting pays itself many times over when recommendations actually implemented.",
+          "topic_probability": 0.2405297527051134
+        },
+        {
+          "id": 78,
+          "category": "partenariat_strategie",
+          "language": "de",
+          "source_type": "verified",
+          "original_text": "Wir haben bewusst eine Beratungsfirma ohne Technologiepartnerschaften gewählt, um eine unabhängige Empfehlung zu erhalten. Die Qualität der Analyse war hervorragend und die Empfehlungen wirkten nicht von kommerziellen Interessen beeinflusst. Für strategische Entscheidungen ist echte Unabhängigkeit unbezahlbar.",
+          "translated_text": "have deliberately chosen consulting company without technology partnerships to obtain independent recommendation. quality analysis excellent recommendations have influenced commercial interests. strategic decisions real independence priceless.",
+          "topic_probability": 0.11968457143142991
+        },
+        {
+          "id": 79,
+          "category": "partenariat_strategie",
+          "language": "es",
+          "source_type": "verified",
+          "original_text": "Seleccionamos esta firma precisamente porque no tenía acuerdos comerciales con proveedores tecnológicos, garantizando así una recomendación verdaderamente objetiva. Su análisis fue imparcial y nos permitió tomar una decisión de inversión de 20 millones con plena confianza en la independencia del asesoramiento.",
+          "translated_text": "We selected this signature precisely because it had commercial agreements technology suppliers, thus ensuring truly objective recommendation. its impartial analysis allowed us to make investment decision 20 million full confidence independence advice.",
+          "topic_probability": 0.18084343022892277
+        },
+        {
+          "id": 99,
+          "category": "rse_ethique",
+          "language": "de",
+          "source_type": "verified",
+          "original_text": "Wir haben die Nachhaltigkeitsstrategie unseres Unternehmens gemeinsam mit dem Beratungsunternehmen entwickelt. Das Team war in Bezug auf ethische Fragen überraschend klar: Sie lehnten Empfehlungen ab, die zwar legal, aber gesellschaftlich problematisch gewesen wären. Diese Haltung hat unser Vertrauen in sie gestärkt.",
+          "translated_text": "have developed sustainability strategy of our company together with the consulting company. team regarding ethical questions surprisingly clear: rejected recommendations, though legal, would have been socially problematic. this attitude has strengthened our trust.",
+          "topic_probability": 0.21359095406271453
+        },
+        {
+          "id": 100,
+          "category": "rse_ethique",
+          "language": "es",
+          "source_type": "verified",
+          "original_text": "La firma de consultoría nos asesoró sobre nuestra estrategia de sostenibilidad con un enfoque genuinamente ético. Rechazaron varias opciones que habrían maximizado los beneficios a corto plazo pero comprometido nuestra reputación a largo plazo. Esa independencia y visión a largo plazo es lo que diferencia a los verdaderos asesores estratégicos.",
+          "translated_text": "firm consultancy advised us on our strategy sustainability approach genuinely ethical. they rejected several options would have maximized short-term benefits but compromised our long-term reputation. that independence long-term vision differentiates it from real strategic advisors.",
+          "topic_probability": 0.10193943055405205
+        }
+      ]
+    },
+    "1": {
+      "topic_name": "Transformation / Digital / Consulting",
+      "n_documents": 15,
+      "top_keywords": [
+        "transformation",
+        "digital",
+        "consulting",
+        "growth",
+        "consultants",
+        "firms",
+        "deeper"
+      ],
+      "categories": {
+        "innovation_tech": 9,
+        "finance_performance": 4,
+        "services_qualite": 1,
+        "partenariat_strategie": 1
+      },
+      "languages": {
+        "ar": 4,
+        "es": 3,
+        "en": 3,
+        "de": 3,
+        "fr": 2
+      },
+      "sources": {
+        "press": 11,
+        "social": 3,
+        "verified": 1
+      },
+      "documents": [
+        {
+          "id": 45,
+          "category": "services_qualite",
+          "language": "es",
+          "source_type": "press",
+          "original_text": "El mercado de consultoría en España registra un crecimiento del 12% impulsado por la demanda de servicios de transformación digital y sostenibilidad. Sin embargo, la escasez de talento especializado amenaza la capacidad de las firmas para mantener sus estándares de calidad ante el aumento de la demanda.",
+          "translated_text": "spain consulting market records growth 12% boosted demand services transformation digital sustainability. however, shortage specialized talent threatens ability firms maintain their quality standards in response to increased demand.",
+          "topic_probability": 0.1490938454868961
+        },
+        {
+          "id": 59,
+          "category": "finance_performance",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "Accenture reports strong quarterly earnings with revenue growth of 9% in constant currency, driven by continued demand for digital transformation and AI services. The company raises its full-year guidance and announces a $3 billion share buyback program, signaling confidence in its financial outlook.",
+          "translated_text": "accenture reports strong quarterly earnings revenue growth 9% constant currency, driven continued demand digital transformation ai services. company raises full-year guidance announces $3 billion share buyback program, signaling confidence financial outlook.",
+          "topic_probability": 0.20386875803755727
+        },
+        {
+          "id": 60,
+          "category": "finance_performance",
+          "language": "ar",
+          "source_type": "press",
+          "original_text": "أعلنت شركة ماكنزي عن نتائج مالية قياسية للعام الماضي مع نمو في الإيرادات تجاوز 15%. هذا الأداء يعكس الطلب المتزايد على خدمات التحول الرقمي والاستشارات المتعلقة بالذكاء الاصطناعي. الشركة تخطط للتوسع في الأسواق الناشئة وخاصة منطقة الشرق الأوسط وأفريقيا.",
+          "translated_text": "MacKenzie announced record financial results for the past year that revenue grew by more than 15%. Performance reflects growing demand for digital transformation services and artificial intelligence consulting.",
+          "topic_probability": 0.2896931794196595
+        },
+        {
+          "id": 61,
+          "category": "finance_performance",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Die Deutsche Unternehmensberatung Roland Berger verzeichnet trotz schwieriger Konjunktur ein Umsatzwachstum von 7%. Besonders die Bereiche Restrukturierung und digitale Transformation boomen. Die Firma plant, 500 neue Berater einzustellen und ihre Präsenz in Asien auszubauen.",
+          "translated_text": "German corporate consulting roland berger records 7% despite difficult economic growth. especially areas restructuring digital transformation booms. company plans to hire 500 new consultants to expand its presence asia.",
+          "topic_probability": 0.17447235938015718
+        },
+        {
+          "id": 62,
+          "category": "finance_performance",
+          "language": "es",
+          "source_type": "press",
+          "original_text": "El sector de consultoría en España cierra el año con un crecimiento del 15% en facturación, impulsado principalmente por proyectos de transformación digital y asesoramiento en ESG. Las grandes firmas internacionales consolidan su liderazgo mientras emergen boutiques especializadas con propuestas de valor diferenciadas.",
+          "translated_text": "consulting sector Spain closes year growth 15% turnover, driven mainly projects transformation digital advice e.g. big international firms consolidate their leadership while emerging specialized boutiques proposals differentiated value.",
+          "topic_probability": 0.1659012211148496
+        },
+        {
+          "id": 72,
+          "category": "partenariat_strategie",
+          "language": "ar",
+          "source_type": "press",
+          "original_text": "إعلان الاندماج بين شركتي استشارات كبريين يعيد رسم خريطة القطاع في المنطقة. الصفقة تُقيَّم بمليار دولار وتخلق كياناً استشارياً بعشرة آلاف موظف. المنافسون يترقبون بقلق بينما يرحب العملاء بتوسع قدرات الخدمة لكنهم يخشون ارتفاع الأسعار.",
+          "translated_text": "The deal is valued at $1 billion and creates a consulting entity of 10,000 employees. Competitions are anxiously waiting while clients welcome expansion of service capabilities but fear rising prices.",
+          "topic_probability": 0.10978059484258501
+        },
+        {
+          "id": 82,
+          "category": "innovation_tech",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Les cabinets de conseil investissent massivement dans l'intelligence artificielle pour automatiser les tâches d'analyse et améliorer la qualité de leurs livrables. McKinsey a créé une division IA de 1000 personnes. La question reste entière : cette technologisation va-t-elle améliorer les conseils ou simplement réduire les coûts en remplaçant les juniors ?",
+          "translated_text": "consulting firms invest massively artificial intelligence automating analytical tasks improve their delivery quality. mckinsey created division ia 1000 people. question remains whole technologyization will it improve advice simply reduce costs by replacing juniors",
+          "topic_probability": 0.3978138848474397
+        },
+        {
+          "id": 83,
+          "category": "innovation_tech",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "AI is disrupting the consulting industry in profound ways. Tools that can analyze thousands of documents in minutes are replacing weeks of junior analyst work. The firms that will thrive are those that can combine AI efficiency with human judgment and client relationship skills that technology cannot replicate.",
+          "translated_text": "ai disrupting consulting industry profound ways. tools analyze thousands documents minutes replacing weeks junior analyst work. firms thrive combine ai efficiency human judgment client relationship skills technology cannot replicate.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 84,
+          "category": "innovation_tech",
+          "language": "ar",
+          "source_type": "press",
+          "original_text": "الذكاء الاصطناعي يعيد تشكيل صناعة الاستشارات بشكل جذري. الشركات الكبرى تستثمر مليارات الدولارات في تطوير أدوات تحليلية متقدمة تُمكّن المستشارين من تقديم رؤى أعمق وأسرع. لكن الخبراء يتساءلون: هل سيحل الذكاء الاصطناعي محل المستشار البشري أم سيعززه؟",
+          "translated_text": "Artificial intelligence is radically reshaping the consulting industry. Large companies invest billions of dollars in developing advanced analytical tools that enable consultants to provide deeper and faster insights.",
+          "topic_probability": 0.4570926889196786
+        },
+        {
+          "id": 85,
+          "category": "innovation_tech",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Generative KI verändert die Beratungsbranche fundamental. Analysen, für die früher Teams von Junior-Beratern wochenlang arbeiteten, lassen sich nun in Stunden durchführen. Die Herausforderung liegt darin, die Effizienzgewinne an die Kunden weiterzugeben ohne die eigene Profitabilität zu gefährden.",
+          "translated_text": "generative ki fundamentally changes the consulting industry. analyses, former teams junior consultants worked for weeks, can now be performed hours. challenge lies in passing on efficiency gains to customers without jeopardizing their own profitability.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 86,
+          "category": "innovation_tech",
+          "language": "es",
+          "source_type": "press",
+          "original_text": "La inteligencia artificial generativa está transformando los modelos de negocio de las consultoras. Las firmas que lideren esta transición podrán ofrecer análisis más profundos a menor costo, pero enfrentarán la paradoja de destruir su propio modelo basado en horas facturables de trabajo humano.",
+          "translated_text": "generational artificial intelligence is transforming consulting business models. Firms leading this transition will be able to offer deeper analysis lower cost, but will face paradox to destroy their own model based hours billable human work.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 87,
+          "category": "innovation_tech",
+          "language": "fr",
+          "source_type": "social",
+          "original_text": "J'ai demandé à ChatGPT de faire une analyse stratégique de mon secteur et le résultat était franchement comparable à ce que j'ai payé 50k€ à un cabinet il y a 3 ans. L'IA va complètement disrupter les cabinets de conseil dans les 5 prochaines années. Ceux qui ne s'adaptent pas vont mourir.",
+          "translated_text": "I asked chatgpt to do strategic analysis sector result was frankly comparable I paid 50k€ cabinet years. the ia will completely disrupt consulting firms next years. those adapt will die.",
+          "topic_probability": 0.4425766330934654
+        },
+        {
+          "id": 88,
+          "category": "innovation_tech",
+          "language": "en",
+          "source_type": "social",
+          "original_text": "The consulting industry's dirty secret: a significant portion of what they charge premium fees for can now be done by AI tools in minutes. The firms know this. That's why they're all rushing to acquire AI capabilities and reposition as AI implementation partners before their core business erodes.",
+          "translated_text": "consulting industry's dirty secret: significant portion what charge premium fees now done ai tools minutes. firms know this. that's why they're all rushing acquire ai capabilities reposition ai implementation partners before core business erodes.",
+          "topic_probability": 0.4398103088884915
+        },
+        {
+          "id": 89,
+          "category": "innovation_tech",
+          "language": "ar",
+          "source_type": "social",
+          "original_text": "استخدمت أدوات الذكاء الاصطناعي لتحليل السوق وجاءت النتائج مماثلة لما دفعت فيه الآلاف لشركة استشارات. هذا لا يعني أن الاستشاريين لا قيمة لهم، لكنه يعيد تحديد قيمتهم الحقيقية في الحكم والخبرة والعلاقات، لا في التحليل الروتيني الذي يمكن للآلة إنجازه.",
+          "translated_text": "Artificial intelligence tools have been used to analyse the market and the results are similar to what thousands have paid a consulting firm. Consultants mean value to them, but they redefine their true value, wisdom, experience and relationships, routine analysis that the machine can accomplish.",
+          "topic_probability": 0.5563443415971533
+        },
+        {
+          "id": 90,
+          "category": "innovation_tech",
+          "language": "de",
+          "source_type": "verified",
+          "original_text": "Das Beratungsunternehmen nutzte KI-Tools, um unsere Marktdaten in Echtzeit zu analysieren und Muster zu identifizieren, die menschliche Analysten übersehen hätten. Das Ergebnis war beeindruckend: tiefere Einblicke in kürzerer Zeit. KI macht gute Berater besser, ersetzt sie aber nicht.",
+          "translated_text": "consulting company used ki-tools to analyze our market data real-time patterns to identify human analysts would have overlooked. result impressive: deeper insights shorter time. ki makes good consultants better, does not replace.",
+          "topic_probability": 1.0
+        }
+      ]
+    },
+    "2": {
+      "topic_name": "Audit / Financial / Accounting",
+      "n_documents": 10,
+      "top_keywords": [
+        "audit",
+        "financial",
+        "accounting",
+        "million",
+        "report",
+        "companies",
+        "rotation"
+      ],
+      "categories": {
+        "audit_conformite": 10
+      },
+      "languages": {
+        "fr": 3,
+        "ar": 2,
+        "de": 2,
+        "es": 2,
+        "en": 1
+      },
+      "sources": {
+        "press": 6,
+        "social": 3,
+        "verified": 1
+      },
+      "documents": [
+        {
+          "id": 1,
+          "category": "audit_conformite",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Le cabinet Deloitte a été épinglé par l'AMF pour des manquements graves dans ses procédures d'audit sur trois sociétés cotées. Les commissaires aux comptes n'auraient pas détecté des irrégularités comptables pourtant visibles dans les états financiers. Une amende de 2 millions d'euros a été prononcée.",
+          "translated_text": "firm deloitte was pinned the amp serious deficiencies his audit procedures three listed companies. auditors would not have detected accounting irregularities yet visible financial statements. fine million euros was pronounced.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 3,
+          "category": "audit_conformite",
+          "language": "ar",
+          "source_type": "press",
+          "original_text": "كشف تقرير هيئة الرقابة المالية عن إخفاقات جسيمة في عمليات التدقيق التي أجرتها إحدى شركات المحاسبة الكبرى على مجموعة من الشركات المدرجة في السوق المالية. وأشار التقرير إلى أن المدققين أغفلوا مخالفات محاسبية صريحة وتجاهلوا إشارات التحذير المبكرة من الاحتيال المالي.",
+          "translated_text": "The report of the Financial Control Board revealed serious failures of audits conducted by a major accounting firm of the group of companies listed in the financial market. The report indicated that the auditors omitted explicit accounting irregularities and ignored early warning signals of financial fraud.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 4,
+          "category": "audit_conformite",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Der Wirecard-Skandal hat das Vertrauen in die deutsche Wirtschaftsprüfungsbranche erschüttert. EY wurde vorgeworfen, jahrelang Bilanzfälschungen in Milliardenhöhe nicht aufgedeckt zu haben. Der Bundestagsuntersuchungsausschuss fordert nun strengere Regulierung und häufigere Rotation der Prüfer.",
+          "translated_text": "Wirecard scandal has shaken trust in German auditing industry. ey was accused of having uncovered billions of billions of dollars for years. federal investigation committee now demands stricter regulation more frequent rotation auditors.",
+          "topic_probability": 0.2791293016993242
+        },
+        {
+          "id": 5,
+          "category": "audit_conformite",
+          "language": "es",
+          "source_type": "press",
+          "original_text": "La CNMV ha sancionado a una de las grandes firmas de auditoría por no detectar irregularidades contables en los estados financieros de una empresa del IBEX 35. Los auditores habrían omitido señales claras de manipulación de beneficios durante tres ejercicios consecutivos, lo que causó pérdidas millonarias a los inversores.",
+          "translated_text": "cnmv has sanctioned large audit firms to detect accounting irregularities financial statements company ibex 35. Auditors would have omitted clear signals manipulation profits for three consecutive years, causing losses million investors.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 6,
+          "category": "audit_conformite",
+          "language": "fr",
+          "source_type": "social",
+          "original_text": "Encore un cabinet d'audit qui se fait attraper la main dans le sac. La régulation de ces Big Four est une vraie blague, ils auditent les mêmes boîtes depuis 20 ans et personne ne voit rien. Conflit d'intérêts évident. Il faut une rotation obligatoire tous les 5 ans minimum.",
+          "translated_text": "audit firm makes catch hand bag. regulation big oven real joke, audit same boxes for 20 years no one sees anything. obvious conflict of interest. must rotation obligatory every year minimum.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 7,
+          "category": "audit_conformite",
+          "language": "en",
+          "source_type": "verified",
+          "original_text": "As a CFO who has worked with multiple Big Four firms, I can say that audit quality varies enormously depending on the team assigned. We switched auditors after our previous firm missed a significant revenue recognition issue. The new team caught it immediately during their first review.",
+          "translated_text": "cfo who worked multiple big four firms, say audit quality varies enormously depending team assigned. switched auditors after previous firm missed significant revenue recognition issue. new team caught immediately during first review.",
+          "topic_probability": 0.19620956311754062
+        },
+        {
+          "id": 8,
+          "category": "audit_conformite",
+          "language": "ar",
+          "source_type": "social",
+          "original_text": "هل تساءلتم يوماً لماذا تفشل شركات التدقيق الكبرى في اكتشاف الاحتيال المالي رغم تقاضيها ملايين الدولارات؟ السبب بسيط: المراجع المالي يعمل لصالح من يدفع له. النموذج الحالي للتدقيق مكسور بطبيعته ويحتاج إلى إصلاح جذري.",
+          "translated_text": "Have you ever wondered why major audit firms fail to detect financial fraud despite receiving millions of dollars? The reason is simple: the auditor works for him.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 10,
+          "category": "audit_conformite",
+          "language": "es",
+          "source_type": "social",
+          "original_text": "El escándalo de auditoría de esta semana demuestra lo que muchos sabíamos: las grandes firmas priorizan mantener al cliente feliz sobre hacer su trabajo correctamente. Cuando tu cliente paga 10 millones en honorarios, ¿realmente vas a señalar sus irregularidades? El sistema está roto.",
+          "translated_text": "scandal audit this week shows how many we knew: big firms prioritize keeping the customer happy about doing their job properly. when your client pays 10 million fees, are you really going to point out their irregularities? system is broken.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 11,
+          "category": "audit_conformite",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Le Haut Conseil du Commissariat aux Comptes publie son rapport annuel sur la qualité des audits en France. Les résultats montrent une amélioration globale mais pointent des lacunes persistantes dans l'audit des instruments financiers complexes et des transactions avec les parties liées.",
+          "translated_text": "high board station accounts publishes annual report quality audits in france. results show overall improvement point persistent gaps audit complex financial instruments transactions related parties.",
+          "topic_probability": 0.5265910466681896
+        },
+        {
+          "id": 14,
+          "category": "audit_conformite",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Die Wirtschaftsprüferkammer verschärft die Qualitätskontrolle für Prüfungsgesellschaften nach mehreren Skandalen. Ab 2025 müssen alle börsennotierten Unternehmen ihre Abschlussprüfer alle zehn Jahre wechseln. Experten begrüßen die Maßnahme, warnen aber vor steigenden Prüfungskosten.",
+          "translated_text": "Chamber of Auditors tightens quality control audit companies after several scandals. from 2025 all listed companies must change their auditors every ten years. experts welcome measure, warn against rising audit costs.",
+          "topic_probability": 1.0
+        }
+      ]
+    },
+    "3": {
+      "topic_name": "Scandal / Interest / Major",
+      "n_documents": 10,
+      "top_keywords": [
+        "scandal",
+        "interest",
+        "major",
+        "damage",
+        "consulting",
+        "conflicts interest",
+        "conflicts"
+      ],
+      "categories": {
+        "reputation_scandale": 9,
+        "audit_conformite": 1
+      },
+      "languages": {
+        "en": 3,
+        "ar": 2,
+        "de": 2,
+        "es": 2,
+        "fr": 1
+      },
+      "sources": {
+        "press": 7,
+        "social": 3
+      },
+      "documents": [
+        {
+          "id": 2,
+          "category": "audit_conformite",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "PwC Australia faces a major scandal after it was revealed that partners shared confidential government tax policy information with clients to help them avoid new tax measures. The scandal has prompted calls for stricter regulation of the Big Four accounting firms and led to the resignation of several senior partners.",
+          "translated_text": "pwc australia faces major scandal after revealed partners shared confidential government tax policy information clients help them avoid new tax measures. scandal prompted calls stricter regulation big four accounting firms led resignation several senior partners.",
+          "topic_probability": 0.3815020009161813
+        },
+        {
+          "id": 16,
+          "category": "reputation_scandale",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Le cabinet McKinsey est au cœur d'une polémique après la publication d'un livre révélant ses liens avec des régimes autoritaires et son rôle dans la crise des opioïdes aux États-Unis. Plusieurs grandes entreprises ont annoncé suspendre leurs contrats avec le cabinet en attendant les conclusions d'une enquête indépendante.",
+          "translated_text": "cabinet mckinsey heart of a controversy after publication of a book revealing its links authoritarian regimes role opioid crisis united states. several large companies announced suspend their contracts firm pending conclusion of an independent investigation.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 17,
+          "category": "reputation_scandale",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "Boston Consulting Group faces reputational damage after leaked internal documents revealed that consultants advised a major pharmaceutical company on strategies to maximize opioid sales while downplaying addiction risks. The revelations have led to calls for greater transparency in the consulting industry.",
+          "translated_text": "boston consulting group faces reputational damage after leaked internal documents revealed consultants advised major pharmaceutical company strategies maximize opioid sales while downplaying addiction risks. revelations led calls greater transparency consulting industry.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 18,
+          "category": "reputation_scandale",
+          "language": "ar",
+          "source_type": "social",
+          "original_text": "فضيحة جديدة تهز عالم الاستشارات المالية. وثائق مسربة تكشف أن شركة استشارات كبرى نصحت عملاءها بتحويل أرباحهم إلى ملاذات ضريبية مع علمها التام بأن هذه الممارسات تضر بالمصلحة العامة. هل آن الأوان لمحاسبة هذه الشركات على أضرارها الاجتماعية؟",
+          "translated_text": "A new scandal shakes the world of financial consulting, leaked documents reveal that a major consulting firm advised its clients to transfer their profits as tax havens, fully aware that practices are detrimental to the public interest. Is it time for companies to account for their social damage?",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 19,
+          "category": "reputation_scandale",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Ein führendes Beratungsunternehmen steht unter Verdacht, vertrauliche Regierungsinformationen an private Kunden weitergegeben zu haben. Die Staatsanwaltschaft hat Ermittlungen eingeleitet. Das Unternehmen bestreitet alle Vorwürfe und betont sein Engagement für ethisches Geschäftsgebaren.",
+          "translated_text": "leading consulting company is under suspicion that confidential government information has passed on private customers. prosecutor's office has initiated investigations. company denies all accusations emphasizes its engagement ethical business conduct.",
+          "topic_probability": 0.33766727518920275
+        },
+        {
+          "id": 20,
+          "category": "reputation_scandale",
+          "language": "es",
+          "source_type": "press",
+          "original_text": "Una reconocida firma de consultoría estratégica se ve envuelta en un escándalo de puertas giratorias al conocerse que varios de sus socios principales pasaron directamente de altos cargos gubernamentales a asesorar a empresas que regulaban. El caso ha reabierto el debate sobre los conflictos de interés en el sector.",
+          "translated_text": "Recognised strategic consulting firm is involved scandal revolving doors as several main partners passed directly senior government positions advising companies regulated. case has reopened debate on conflicts of interest sector.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 22,
+          "category": "reputation_scandale",
+          "language": "en",
+          "source_type": "social",
+          "original_text": "Just read the exposé on that consulting firm's involvement in the opioid crisis. These companies optimize for profit with zero regard for human consequences. They hide behind client confidentiality while their advice destroys communities. Time for real accountability in the consulting industry.",
+          "translated_text": "just read exposé consulting firm's involvement opioid crisis. companies optimize profit zero regard human consequences. hide behind client confidentiality while advice destroys communities. time real accountability consulting industry.",
+          "topic_probability": 0.22888484280616628
+        },
+        {
+          "id": 23,
+          "category": "reputation_scandale",
+          "language": "ar",
+          "source_type": "press",
+          "original_text": "تحقيق استقصائي يكشف أن شركة استشارات دولية كبرى قدمت توصيات متناقضة لعملاء متنافسين في نفس القطاع، مما يثير تساؤلات جدية حول مدى التزامها بمبادئ السرية المهنية وتجنب تضارب المصالح. الشركة نفت الاتهامات وأكدت وجود جدران عازلة صارمة بين فرقها.",
+          "translated_text": "A survey reveals a major international consulting firm that made contradictory recommendations to competing clients in the same sector, raising serious questions about its commitment to the principles of professional confidentiality and avoiding conflicts of interest. The company denied the charges and confirmed the existence of strict buffer walls.",
+          "topic_probability": 0.24487101351840265
+        },
+        {
+          "id": 25,
+          "category": "reputation_scandale",
+          "language": "es",
+          "source_type": "social",
+          "original_text": "La reputación de estas grandes consultoras está por los suelos después de tantos escándalos. Primero el caso de los opioídes, luego las puertas giratorias, ahora el tema del asesoramiento fiscal agresivo. ¿Cuándo van a exigirles responsabilidades reales por el daño que causan?",
+          "translated_text": "reputation these great consultants are soiled after so many scandals. first opium case, then revolving doors, now subject aggressive tax advice. when will they charge them with real damage responsibilities they cause?",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 29,
+          "category": "reputation_scandale",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Neue Recherchen zeigen, dass eine internationale Unternehmensberatung ihre Regierungsmandate genutzt haben soll, um Wettbewerbsvorteile für ihre Privatkunden zu sichern. Der Skandal wirft grundlegende Fragen über Interessenkonflikte im Beratungssektor auf und fordert eine schärfere Regulierung.",
+          "translated_text": "new research shows that international corporate consulting should have used their government mandates to secure competitive advantages to their private customers. scandal raises fundamental questions about conflicts of interest in the consulting sector calls for stricter regulation.",
+          "topic_probability": 1.0
+        }
+      ]
+    },
+    "4": {
+      "topic_name": "Real / Culture / Constant",
+      "n_documents": 8,
+      "top_keywords": [
+        "real",
+        "culture",
+        "constant",
+        "consulting firm",
+        "hours",
+        "reality",
+        "management"
+      ],
+      "categories": {
+        "rh_management": 6,
+        "services_qualite": 2
+      },
+      "languages": {
+        "fr": 3,
+        "ar": 2,
+        "en": 1,
+        "de": 1,
+        "es": 1
+      },
+      "sources": {
+        "social": 7,
+        "verified": 1
+      },
+      "documents": [
+        {
+          "id": 36,
+          "category": "services_qualite",
+          "language": "fr",
+          "source_type": "social",
+          "original_text": "J'ai travaillé avec plusieurs cabinets de conseil au cours de ma carrière et honnêtement les écarts de qualité sont énormes. Certains livrent des rapports génériques copiés-collés d'un client à l'autre. Les meilleurs s'imprègnent vraiment de votre réalité et ça fait toute la différence.",
+          "translated_text": "I have worked several consulting firm career courses honestly huge quality gaps. some deliver copied-paste generic reports from one client the other. best really permeat your reality it makes any difference.",
+          "topic_probability": 0.1368940925901973
+        },
+        {
+          "id": 38,
+          "category": "services_qualite",
+          "language": "ar",
+          "source_type": "social",
+          "original_text": "تجارب متباينة مع شركات الاستشارات الكبرى. بعضها يقدم خدمة احترافية حقيقية تضيف قيمة ملموسة لعملك، والبعض الآخر يبيع لك تقارير جاهزة بأسمائك عليها. الفارق الحقيقي يكمن في مدى فهم الفريق لخصوصية قطاعك وتحدياتك.",
+          "translated_text": "Some offer a real professional service that adds tangible value to your work, and others sell you ready reports in your name. The real difference is how much the team understands the privacy of your sector and your challenges.",
+          "topic_probability": 0.11903915091275064
+        },
+        {
+          "id": 46,
+          "category": "rh_management",
+          "language": "fr",
+          "source_type": "social",
+          "original_text": "Ex-consultant Big Four ici. La réalité derrière le prestige : 80 heures par semaine, management par la peur, turnover de 30% par an et une culture qui broie les gens. Les clients paient pour des seniors et reçoivent des juniors de 23 ans qui n'ont aucune expérience réelle du business.",
+          "translated_text": "ex-consultant big oven here. reality behind prestige 80 hours week, management fear, turnover 30% an culture crushed people. clients pay senior receive juniors 23 years have no real business experience.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 47,
+          "category": "rh_management",
+          "language": "en",
+          "source_type": "social",
+          "original_text": "Worked at a Big Four for 4 years. The culture is brutal: constant pressure to bill hours, fear-based management, and a pyramid structure designed so most people leave before making partner. The work can be interesting but the human cost is enormous. Burnout is the norm, not the exception.",
+          "translated_text": "worked big four years. culture brutal: constant pressure bill hours, fear-based management, pyramid structure designed most people leave before making partner. work interesting human cost enormous. burnout norm, exception.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 48,
+          "category": "rh_management",
+          "language": "ar",
+          "source_type": "social",
+          "original_text": "استقلت من شركة الاستشارات بعد عامين من الضغط المتواصل وساعات العمل الجنونية. الوعود التي قطعوها عند التوظيف لم تتحقق، والتوازن بين العمل والحياة الشخصية كان شبه معدوم. لا أنصح بهذا المسار المهني إلا لمن هو مستعد لتضحيات جسيمة.",
+          "translated_text": "The consulting firm has held two years of constant pressure and crazy hours of work. The promises of employment come true, work balance and personal life are almost nonexistent.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 49,
+          "category": "rh_management",
+          "language": "de",
+          "source_type": "social",
+          "original_text": "Nach drei Jahren bei einer der großen Unternehmensberatungen habe ich gekündigt. Die Arbeitsbelastung war nicht nachhaltig, die Unternehmenskultur toxisch und die versprochene Work-Life-Balance existierte nur auf dem Papier. Die Beförderungsversprechen waren vage und das echte Lernen blieb aus.",
+          "translated_text": "after three years at a large consulting firm had quit. work load sustainable, corporate culture toxic promised work-life balance existed only to the paper. transport promises were vague real learning remained out.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 50,
+          "category": "rh_management",
+          "language": "es",
+          "source_type": "social",
+          "original_text": "Tras cinco años en consultoría estratégica, puedo decir que la experiencia te forma profesionalmente pero te destruye personalmente. La cultura del presentismo, la presión constante y la competencia interna hacen que la rotación sea altísima. Las firmas saben esto y lo aceptan como parte del modelo de negocio.",
+          "translated_text": "After five years strategic consulting, I can say experience trains you professionally but destroys you personally. culture presentism, constant pressure internal competition make rotation very high. firms know this accept part business model.",
+          "topic_probability": 0.2641589667992692
+        },
+        {
+          "id": 56,
+          "category": "rh_management",
+          "language": "fr",
+          "source_type": "verified",
+          "original_text": "J'ai passé 6 ans dans un cabinet de conseil et je garde un bilan mitigé. La formation était excellente, l'exposition à des problématiques variées incomparable. Mais le coût humain est réel. J'ai vu des collègues brillants se brûler les ailes. Il faut y aller les yeux ouverts.",
+          "translated_text": "I spent years consulting firm guard mixed balance. training was excellent, exposure varied issues incomparable. real human cost.I saw brilliant colleagues burn wings. must go eyes open.",
+          "topic_probability": 0.1658236608837577
+        }
+      ]
+    },
+    "5": {
+      "topic_name": "Ethical / Social / Companies",
+      "n_documents": 6,
+      "top_keywords": [
+        "ethical",
+        "social",
+        "companies",
+        "standards",
+        "practice",
+        "consequences",
+        "clients"
+      ],
+      "categories": {
+        "rse_ethique": 6
+      },
+      "languages": {
+        "en": 2,
+        "ar": 2,
+        "de": 1,
+        "es": 1
+      },
+      "sources": {
+        "press": 4,
+        "social": 2
+      },
+      "documents": [
+        {
+          "id": 92,
+          "category": "rse_ethique",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "Consulting firms face growing scrutiny over their ESG credentials given the nature of their client base. How can a firm credibly advise on sustainability while simultaneously serving oil companies, tobacco firms and controversial industries? The tension between commercial interests and ethical positioning is becoming unsustainable.",
+          "translated_text": "consulting firms face growing scrutiny over esg credentials given nature client base. how firm credibly advise sustainability while simultaneously serving oil companies, tobacco firms controversial industries? tension between commercial interests ethical positioning becoming unsustainable.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 93,
+          "category": "rse_ethique",
+          "language": "ar",
+          "source_type": "press",
+          "original_text": "مسؤولية الشركات الاجتماعية في قطاع الاستشارات تحت المجهر. شركات تتحدث عن الاستدامة وأخلاقيات الأعمال بينما تقدم خدماتها لعملاء في قطاعات مثيرة للجدل. الفجوة بين الخطاب والممارسة تؤثر على مصداقية هذه الشركات ويجب معالجتها بشفافية.",
+          "translated_text": "Social companies are responsible for consulting under the microscope. Companies speak of sustainability and business ethics while offering services to clients of controversial sectors. The gap in speech and practice affects corporate credibility and must be addressed transparently.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 94,
+          "category": "rse_ethique",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Unternehmensberater werden zunehmend für ihre Rolle bei Entscheidungen mit weitreichenden gesellschaftlichen Konsequenzen verantwortlich gemacht. Die Branche diskutiert einen ethischen Kodex für Beratungsleistungen, ähnlich dem Hippokratischen Eid in der Medizin. Die Umsetzung bleibt jedoch freiwillig und schwer überprüfbar.",
+          "translated_text": "Corporate consultants are increasingly being held responsible for their role in decisions of far-reaching social consequences. industry discusses an ethical code consulting services, similar to the hippocratic eid medicine. implementation however remains voluntarily difficult to verify.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 95,
+          "category": "rse_ethique",
+          "language": "es",
+          "source_type": "press",
+          "original_text": "El sector de consultoría debate la necesidad de estándares éticos obligatorios tras varios escándalos que revelaron asesoramiento irresponsable con graves consecuencias sociales. La autorregulación ha demostrado ser insuficiente y los reguladores europeos estudian introducir requisitos de responsabilidad profesional más estrictos.",
+          "translated_text": "industry consulting debate need mandatory ethical standards after several scandals revealed irresponsible advice serious social consequences. self-regulation has proven to be insufficient European regulators are studying introducing stricter professional liability requirements.",
+          "topic_probability": 0.2638357897601542
+        },
+        {
+          "id": 97,
+          "category": "rse_ethique",
+          "language": "en",
+          "source_type": "social",
+          "original_text": "Consulting firms publishing beautiful ESG reports while advising clients on aggressive tax avoidance is the definition of greenwashing. The industry needs mandatory ethical standards, not voluntary codes of conduct that are conveniently ignored when they conflict with revenue generation.",
+          "translated_text": "consulting firms publishing beautiful esg reports while advising clients aggressive tax avoidance definition greenwashing. industry needs mandatory ethical standards, voluntary codes conduct conveniently ignored when conflict revenue generation.",
+          "topic_probability": 0.38232104143439005
+        },
+        {
+          "id": 98,
+          "category": "rse_ethique",
+          "language": "ar",
+          "source_type": "social",
+          "original_text": "شركات الاستشارات التي تُسوّق نفسها على أنها مسؤولة اجتماعياً بينما تساعد عملاءها على التهرب الضريبي وتجاوز اللوائح البيئية تمارس نوعاً من الغسيل الأخضر الخطير. المصداقية تتطلب توافقاً حقيقياً بين الخطاب والفعل، لا مجرد تقارير براقة للعلاقات العامة.",
+          "translated_text": "Consulting companies market themselves that they are socially responsible while helping their clients tax evasion and bypassing environmental regulations practice some kind of dangerous green laundry. Credibility requires a true consensus of speech and action, just brilliant public relations reports.",
+          "topic_probability": 1.0
+        }
+      ]
+    },
+    "6": {
+      "topic_name": "Independence / Partnerships / Partner",
+      "n_documents": 5,
+      "top_keywords": [
+        "independence",
+        "partnerships",
+        "partner",
+        "advice",
+        "firm",
+        "recommend",
+        "independence advice"
+      ],
+      "categories": {
+        "partenariat_strategie": 4,
+        "reputation_scandale": 1
+      },
+      "languages": {
+        "fr": 2,
+        "en": 2,
+        "ar": 1
+      },
+      "sources": {
+        "social": 4,
+        "press": 1
+      },
+      "documents": [
+        {
+          "id": 21,
+          "category": "reputation_scandale",
+          "language": "fr",
+          "source_type": "social",
+          "original_text": "Ces cabinets de conseil qui conseillent l'État et les entreprises privées en même temps, c'est un conflit d'intérêts permanent. Comment peut-on faire confiance à leurs recommandations quand ils jouent sur les deux tableaux ? La réglementation doit absolument évoluer sur ce point.",
+          "translated_text": "consulting firms advise the state private companies in time, it is permanent conflict of interest. how can one trust their recommendations when playing two regulatory tables must absolutely change point.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 75,
+          "category": "partenariat_strategie",
+          "language": "fr",
+          "source_type": "social",
+          "original_text": "Avant de s'associer avec un cabinet de conseil, vérifiez bien leurs partenariats commerciaux. Un cabinet partenaire d'un éditeur logiciel vous recommandera toujours leurs solutions même si ce n'est pas la meilleure option pour vous. L'indépendance du conseil est une valeur qui disparaît progressivement.",
+          "translated_text": "before partnering consulting firm, check their business partnerships. firm partner of a software publisher will always recommend their solutions is no better option you. independence advice value gradually disappears.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 76,
+          "category": "partenariat_strategie",
+          "language": "en",
+          "source_type": "social",
+          "original_text": "Before signing with any consulting firm, always ask who their technology and commercial partners are. A firm that has a revenue-sharing agreement with a specific software vendor will always recommend that vendor's products. True independence in consulting advice is increasingly rare and valuable.",
+          "translated_text": "before signing any consulting firm, always ask who technology commercial partners are. firm revenue-sharing agreement specific software vendor always recommend vendor's products. true independence consulting advice increasingly rare valuable.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 77,
+          "category": "partenariat_strategie",
+          "language": "ar",
+          "source_type": "social",
+          "original_text": "قبل التعاقد مع أي شركة استشارات، اسألوا دائماً عن شراكاتهم التجارية وتحالفاتهم الاستراتيجية. الاستشاري الحقيقي يقدم لك أفضل حل لمشكلتك، ليس الحل الذي يجلب له عمولة من شريكه التجاري. الاستقلالية التامة هي معيار التميز الحقيقي في هذا القطاع.",
+          "translated_text": "Before contracting any consulting firm, always ask for their business partnerships and strategic alliances. A real consultant offers you the best solution to your problem, not the commission of his business partner. Full independence is the standard of real excellence in the sector.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 81,
+          "category": "partenariat_strategie",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "Due diligence on potential consulting partnerships should include thorough reputation checks. Several companies have discovered too late that their chosen advisory partner had undisclosed relationships with competitors or regulatory issues that significantly compromised the independence of the advice received.",
+          "translated_text": "due diligence potential consulting partnerships include thorough reputation checks. several companies discovered too late chosen advisory partner undisclosed relationships competitors regulatory issues significantly compromised independence advice received.",
+          "topic_probability": 0.22721727117168014
+        }
+      ]
+    },
+    "7": {
+      "topic_name": "Clients / Model / Consulting",
+      "n_documents": 5,
+      "top_keywords": [
+        "clients",
+        "model",
+        "consulting",
+        "consulting firms",
+        "actually",
+        "critics",
+        "theyre"
+      ],
+      "categories": {
+        "finance_performance": 4,
+        "rse_ethique": 1
+      },
+      "languages": {
+        "fr": 2,
+        "en": 1,
+        "ar": 1,
+        "de": 1
+      },
+      "sources": {
+        "social": 4,
+        "press": 1
+      },
+      "documents": [
+        {
+          "id": 63,
+          "category": "finance_performance",
+          "language": "fr",
+          "source_type": "social",
+          "original_text": "Les marges des cabinets de conseil sont obscènes. Ils facturent 3000€ la journée consultant et paient leurs juniors 45k€ par an. Le modèle économique repose entièrement sur l'exploitation de jeunes diplômés ambitieux. C'est un système qui mérite d'être questionnné sérieusement.",
+          "translated_text": "margins consulting firms obscene. bill 3000€ consultant day pay their juniors 45k€ year. economic model rests entirely the exploitation young ambitious graduates. this system deserves to be seriously questioned.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 64,
+          "category": "finance_performance",
+          "language": "en",
+          "source_type": "social",
+          "original_text": "The consulting business model is essentially arbitrage: hire smart young people cheap, charge clients 10x their cost, and pocket the difference. McKinsey makes 40% margins. Their clients often don't. Maybe that tells you something about whose interests they're actually serving.",
+          "translated_text": "consulting business model essentially arbitrage: hire smart young people cheap, charge clients 10x cost, pocket difference. mckinsey makes 40% margins. clients often don't. maybe tells something about whose interests they're actually serving.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 65,
+          "category": "finance_performance",
+          "language": "ar",
+          "source_type": "social",
+          "original_text": "هوامش الربح الفلكية لشركات الاستشارات الكبرى تطرح تساؤلات مشروعة. تدفع للمستشار المبتدئ راتباً متواضعاً وتفاتر العميل بمبالغ مضاعفة عشرات المرات. من يستفيد حقاً من هذه المعادلة؟ الشركات أم العملاء الذين يمولونها بسخاء؟",
+          "translated_text": "The astronomical profit margins of major consulting firms raise legitimate questions. You pay the junior counselor a modest salary and pay the client a tens of times more.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 66,
+          "category": "finance_performance",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Eine Analyse der Honorarstrukturen im Beratungssektor zeigt, dass Tagessätze für erfahrene Berater in Deutschland zwischen 2.000 und 5.000 Euro liegen. Kritiker fragen, ob diese Kosten immer durch den tatsächlichen Mehrwert gerechtfertigt werden. Transparenz bei der Honorarabrechnung wird zunehmend gefordert.",
+          "translated_text": "analysis honorarstructures in the consulting sector shows that daily rates of experienced consultants in Germany range from 2,000 5,000 euros. critics ask whether these costs are always justified by the actual surplus value. transparency in payroll is increasingly demanded.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 96,
+          "category": "rse_ethique",
+          "language": "fr",
+          "source_type": "social",
+          "original_text": "Un cabinet de conseil qui parle de RSE le matin et aide ses clients à optimiser leurs impôts de façon agressive l'après-midi, c'est de l'hypocrisie pure. L'éthique en conseil ne peut pas être un argument marketing, elle doit être une contrainte opérationnelle réelle avec des mécanismes de sanction.",
+          "translated_text": "consulting firm speaks in the morning helps its clients optimize their taxes aggressively in the afternoon, it is pure hypocrisy. ethics in counsel can be marketing argument, must be operational constraint real sanction mechanisms.",
+          "topic_probability": 0.2849359268984313
+        }
+      ]
+    },
+    "8": {
+      "topic_name": "Potential / Strategic / Conflicts",
+      "n_documents": 5,
+      "top_keywords": [
+        "potential",
+        "strategic",
+        "conflicts",
+        "consulting",
+        "warn",
+        "capgemini",
+        "risks"
+      ],
+      "categories": {
+        "partenariat_strategie": 5
+      },
+      "languages": {
+        "fr": 2,
+        "en": 1,
+        "de": 1,
+        "es": 1
+      },
+      "sources": {
+        "press": 5
+      },
+      "documents": [
+        {
+          "id": 70,
+          "category": "partenariat_strategie",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "L'annonce du partenariat stratégique entre Capgemini et Google Cloud soulève des questions sur les conflits d'intérêts potentiels. Capgemini conseillera-t-il objectivement ses clients sur le choix des solutions cloud alors qu'il est lié commercialement à Google ? La transparence sur ces partenariats devient indispensable.",
+          "translated_text": "The announcement of strategic partnership between capgemini google cloud raises potential conflicts of interest issues. capgemini will objectively advise its customers choice cloud solutions that it tied commercially google transparency partnerships becomes indispensable.",
+          "topic_probability": 0.13685162512401555
+        },
+        {
+          "id": 71,
+          "category": "partenariat_strategie",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "The merger between two major consulting firms has created the largest advisory practice in Europe. Analysts see significant synergies in digital services and ESG consulting but warn of integration risks and potential client conflicts given the combined firm's dominant market position in several sectors.",
+          "translated_text": "merger between two major consulting firms created largest advisory practice europe. analysts see significant synergies digital services esg consulting warn integration risks potential client conflicts given combined firm's dominant market position several sectors.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 73,
+          "category": "partenariat_strategie",
+          "language": "de",
+          "source_type": "press",
+          "original_text": "Die strategische Partnerschaft zwischen einem führenden Beratungsunternehmen und einem KI-Startup verspricht revolutionäre Beratungsansätze. Kritiker warnen jedoch vor den Risiken: Datenschutzbedenken beim Einsatz von KI in der Unternehmensberatung und die Frage, wem die generierten Erkenntnisse gehören.",
+          "translated_text": "strategic partnership between a leading consulting company a ki-startup promises revolutionary consulting approaches. however, critics warn of the risks: data protection concerns in the use of ki corporate consulting question, to whom generated insights belong.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 74,
+          "category": "partenariat_strategie",
+          "language": "es",
+          "source_type": "press",
+          "original_text": "La alianza estratégica entre la firma de consultoría y el banco de inversión crea un nuevo modelo de asesoramiento integrado que combina consultoría estratégica con capacidades de financiación. El mercado reacciona positivamente aunque algunos clientes expresan preocupación por posibles conflictos de interés.",
+          "translated_text": "Strategic alliance between firm consulting bank investment creates new model integrated advice combines strategic consulting financing capabilities. market reacts positively although some clients express concern potential conflicts of interest.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 80,
+          "category": "partenariat_strategie",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Le rachat de la boutique de conseil spécialisée en cybersécurité par un grand cabinet généraliste soulève des inquiétudes parmi les clients. La spécialisation et l'agilité qui faisaient la force de la boutique survivront-elles à l'intégration dans une grande structure ? L'histoire du secteur montre des résultats mitigés.",
+          "translated_text": "buy shop consulting specialized in cybersecurity great generalist firm raises concerns among customers. specialization agility made strength shop will they survive integration great structure the history sector shows mixed results.",
+          "topic_probability": 1.0
+        }
+      ]
+    },
+    "9": {
+      "topic_name": "Satisfaction / Annual / Kpmg",
+      "n_documents": 4,
+      "top_keywords": [
+        "satisfaction",
+        "annual",
+        "kpmg",
+        "reveals",
+        "sustainability",
+        "firms",
+        "consulting firms"
+      ],
+      "categories": {
+        "services_qualite": 2,
+        "rh_management": 1,
+        "rse_ethique": 1
+      },
+      "languages": {
+        "fr": 3,
+        "en": 1
+      },
+      "sources": {
+        "press": 4
+      },
+      "documents": [
+        {
+          "id": 41,
+          "category": "services_qualite",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Une étude comparative des cabinets de conseil publiée par le Financial Times classe les Big Four en termes de satisfaction client. KPMG se distingue par sa proximité avec les PME et ETI tandis que McKinsey et BCG dominent sur les grands comptes. La spécialisation sectorielle ressort comme le facteur clé de satisfaction.",
+          "translated_text": "comparative study consulting firms published financial times class big four in terms of customer satisfaction. kpmg distinguishes proximity pme eti while mckinsey bcg dominate large accounts. sectoral specialization spring key factor satisfaction.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 42,
+          "category": "services_qualite",
+          "language": "en",
+          "source_type": "press",
+          "original_text": "Client satisfaction surveys in the consulting industry show growing dissatisfaction with value for money. While technical expertise remains high, clients increasingly question whether the astronomical fees charged by top firms are justified given the mixed track record of implementation success.",
+          "translated_text": "client satisfaction surveys consulting industry show growing dissatisfaction value money. while technical expertise remains high, clients increasingly question whether astronomical fees charged top firms justified given mixed track record implementation success.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 51,
+          "category": "rh_management",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Une étude de Glassdoor révèle que les cabinets de conseil figurent parmi les employeurs avec les scores de bien-être les plus bas malgré des salaires élevés. Le taux de rotation annuel dépasse 25% dans les Big Four, ce qui soulève des questions sur la soutenabilité de leur modèle opérationnel.",
+          "translated_text": "study glassdoor reveals consulting firms are among employers low well-being scores despite high wages. annual turnover rate exceeds 25% big furnace, raises questions about sustainability their operating model.",
+          "topic_probability": 1.0
+        },
+        {
+          "id": 91,
+          "category": "rse_ethique",
+          "language": "fr",
+          "source_type": "press",
+          "original_text": "Le rapport RSE de KPMG sur les pratiques durables des entreprises mondiales est une référence annuelle très attendue. L'édition de cette année révèle que 96% des plus grandes entreprises publient désormais des rapports de durabilité mais que la qualité et la vérifiabilité des données restent très hétérogènes.",
+          "translated_text": "report rse kpmg sustainable practices global companies annual reference expected. the year edition reveals 96% large companies now publish reports sustainability quality verification data remain heterogeneous.",
+          "topic_probability": 1.0
+        }
+      ]
+    }
+  }
+}

@@ -38,3 +38,23 @@ torch>=2.0.0
 tqdm>=4.65.0
 python-dotenv>=1.0.0
 requests>=2.31.0
+
+
+
+
+# --- AJOUTS NÉCESSAIRES ---
+
+# Pour le support multilingue et les modèles Transformers
+sentencepiece>=0.1.99
+sacremoses>=0.0.53
+
+# Pour la gestion efficace des vecteurs (indispensable pour Topic Modeling)
+umap-learn>=0.5.3
+hdbscan>=0.8.33
+
+# Pour l'extraction de texte (si tu as des PDF ou Docx dans data/raw)
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+
+# Pour l'interface (si tu prévois une petite démo locale)
+streamlit>=1.28.0

@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "csv_file": "tweets_apple_20260501_135633.csv",
+    "total_documents": 30,
+    "unique_clients": 1,
+    "text_column": "text",
+    "id_column": "index"
+  },
+  "methodology": {
+    "approach": "Multi-method client detection: NER + capitalization + context + TF-IDF",
+    "methods": [
+      "POS_tagging",
+      "Capitalization",
+      "Context",
+      "Mentions",
+      "TF-IDF"
+    ],
+    "labels": [
+      "ENGAGER",
+      "NEUTRE",
+      "EVITER"
+    ]
+  },
+  "clients": [
+    {
+      "client": "UNKNOWN",
+      "reliability_score": 54.0,
+      "classification": "NEUTRE",
+      "engager_pct": 10.0,
+      "neutre_pct": 90.0,
+      "eviter_pct": 0.0,
+      "total_tweets": 30,
+      "confidence": 0.0,
+      "top_keywords": [
+        "help",
+        "support"
+      ],
+      "breakdown": {
+        "engager": 3,
+        "neutre": 27,
+        "eviter": 0
+      }
+    }
+  ],
+  "sample_documents": [
+    {
+      "tweet_id": "doc_0",
+      "texte": "apple music roulette with:",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_1",
+      "texte": "mending namatin black clover atau day movie ya bingung ga apple to apple sih wka...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_2",
+      "texte": "apple pencil ...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_3",
+      "texte": "smart phones replaced part iconic americana. rate we’re headed, hot dogs basebal...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_4",
+      "texte": "upload apple music thing, it'll give away i'm using cheap-ass earbuds.",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_5",
+      "texte": "apple jr",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_6",
+      "texte": "ui wise apple maps, accuracy google maps",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_7",
+      "texte": "br daily deals dropped $. below average! price well below normal --- amazon . de...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_8",
+      "texte": "mrs. green apple zenjin mito to im/mutable / ᴊᴀᴍ",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_9",
+      "texte": "asake now occupies entire top ng apple top songs chart songs \"m$ney\"",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_10",
+      "texte": "new update apple support app, version ., dropped surprise claude.md files appear...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [
+        "support"
+      ],
+      "classification": "ENGAGER"
+    },
+    {
+      "tweet_id": "doc_11",
+      "texte": "iphone finally reach point ios rumors adding \"camera siri mode\" voice-activated ...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_12",
+      "texte": "aktien new york ausblick: dow im plus erwartet apple-zahlen beflügeln aktie",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_13",
+      "texte": "apple hairstyle hdkshdksshsksh",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_14",
+      "texte": "'margot money troubles' apple tv involves some wrestling. chris jericho apparent...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_15",
+      "texte": "“everyone thought apple just fell newton... threw it.”",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_16",
+      "texte": "after upgrading ios . beta hasn't received any notifications checked twitter tod...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_17",
+      "texte": "own it, don't trade it! staunch believers apple through thick thin! when hot air...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [
+        "help"
+      ],
+      "classification": "ENGAGER"
+    },
+    {
+      "tweet_id": "doc_18",
+      "texte": "tim cook stepping down. didn’t replace steve jobs, rebuilt apple’s engine. visio...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_19",
+      "texte": "women sucked in. wonder eve ate apple",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_20",
+      "texte": "me quede pensando lo dijiste, estaba ponerme debatir si eran no... realidad creo...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_21",
+      "texte": "doesn’t work apple music ?? can’t see :(",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_22",
+      "texte": "people aren’t opening wsj reading article about buffett buying apple wondering w...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_23",
+      "texte": "shuroo process () what about? mockumentary self help gurus wellness retreats fin...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [
+        "help"
+      ],
+      "classification": "ENGAGER"
+    },
+    {
+      "tweet_id": "doc_24",
+      "texte": "apple (aapl) starbucks (sbux), week brought some shockingly better-than-expected...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_25",
+      "texte": "apple im crying plsssss hfhsdhhsvssh",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_26",
+      "texte": "premium trading analysis: shares high-precision bullish signals daily x. must-fo...",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_27",
+      "texte": "apple carplay",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_28",
+      "texte": "brand designer product designer apple: deborah’s career story paiger.link/",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    },
+    {
+      "tweet_id": "doc_29",
+      "texte": "apple watch",
+      "client": "UNKNOWN",
+      "confidence": 0.0,
+      "keywords": [],
+      "classification": "NEUTRE"
+    }
+  ]
+}
