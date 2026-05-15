@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "total_documents": 39,
+    "n_topics": 4,
+    "n_outliers": 2,
+    "outlier_rate": 5.1,
+    "embedding_model": "BAAI/bge-m3",
+    "bertopic_params": {
+      "umap_n_components": 15,
+      "umap_metric": "cosine",
+      "hdbscan_min_cluster_size": 4,
+      "hdbscan_min_samples": 2
+    },
+    "languages": {
+      "en": 21,
+      "so": 1,
+      "es": 2,
+      "id": 5,
+      "ne": 1,
+      "fa": 1,
+      "sq": 1,
+      "sv": 1,
+      "fr": 6
+    },
+    "categories": {
+      "unknown": 39
+    }
+  },
+  "topics": {
+    "-1": {
+      "topic_name": "Outliers / Noise",
+      "n_documents": 2,
+      "top_keywords": [
+        "british petrolium",
+        "petrolium",
+        "british",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "categories": {
+        "unknown": 2
+      },
+      "languages": {
+        "en": 1,
+        "sv": 1
+      },
+      "sources": {
+        "csv": 2
+      },
+      "sample_documents": [
+        {
+          "id": "19",
+          "category": "unknown",
+          "language": "en",
+          "original_text": "Daily reminder that \"carbon footprint\" was invented by British Petrolium PR to shift the blame from mega corps to the average joe."
+        },
+        {
+          "id": "28",
+          "category": "unknown",
+          "language": "sv",
+          "original_text": "1/4 Det är så många grundlösa antaganden och trosuppfattningar inbakade i ditt inlägg att jag har svårt att följa vad du vill. Till att börja med är \"klimatavtrycket\" ett marknadsföringsinitiativ av British Petrolium för att flytta upplevt klimatansvar från företag till individ.."
+        }
+      ]
+    },
+    "0": {
+      "topic_name": "British / Petrolium / British Petrolium",
+      "n_documents": 14,
+      "top_keywords": [
+        "british",
+        "petrolium",
+        "british petrolium",
+        "bps",
+        "petroleum",
+        "industry",
+        "giant"
+      ],
+      "categories": {
+        "unknown": 14
+      },
+      "languages": {
+        "en": 9,
+        "id": 3,
+        "so": 1,
+        "ne": 1
+      },
+      "sources": {
+        "csv": 14
+      },
+      "sample_documents": [
+        {
+          "id": "0",
+          "category": "unknown",
+          "language": "en",
+          "original_text": "No, it was Thatcher who oversaw the ruination of the UK. Before her we owned British Gas, Brit Oil, British Petrolium, British Telecom, British Steel, British Coal, British Airways, British Aerospace, Associated British Ports, BAA, National Express the list goes on and on."
+        },
+        {
+          "id": "1",
+          "category": "unknown",
+          "language": "so",
+          "original_text": "Dekedda Xamar waxaa taagan markabkii Turkiga ee qodi lahaa shidaalka Soomaaliya ka dib markii la sahmiyay goobaha qaar.\n \nSharikadda Mareykanka ee Chevron ee Shidaalka, Gaaska iyo Tamarta ee fadhigeesu yahay Houston iyo Sharikadda British Petrolium oo loo soo gaabiyo BP iyagana"
+        },
+        {
+          "id": "6",
+          "category": "unknown",
+          "language": "en",
+          "original_text": "Giuseppe: “…[History confirms motive ~ use of force to steal property] …take control of Iran’s vast oil reserves…”\n\nThe evidence of prior theft in plain sight:\n\nBritish Petroleum is the company created from stolen Persian Petrolium property of Iran."
+        }
+      ]
+    },
+    "1": {
+      "topic_name": "Develop / Needs / Industry",
+      "n_documents": 10,
+      "top_keywords": [
+        "develop",
+        "needs",
+        "industry",
+        "drilling",
+        "petroleum",
+        "resources",
+        "national"
+      ],
+      "categories": {
+        "unknown": 10
+      },
+      "languages": {
+        "fr": 6,
+        "es": 2,
+        "en": 2
+      },
+      "sources": {
+        "csv": 10
+      },
+      "sample_documents": [
+        {
+          "id": "4",
+          "category": "unknown",
+          "language": "es",
+          "original_text": "Buen punto, por eso BP tiene acuerdos de extraccion de gas natural en las costas de Gaza y eso viene desde hace años ese estudios de British petrolium (BP)"
+        },
+        {
+          "id": "15",
+          "category": "unknown",
+          "language": "es",
+          "original_text": "La BP (British Persian, no British Petrolium), se engendra en el avtual Irán. No digo más."
+        },
+        {
+          "id": "30",
+          "category": "unknown",
+          "language": "fr",
+          "original_text": "Assistance produit Google Store Votre compte Google L'aide pour l'accessibilité ENTOURER POUR CHERCHER MODE IA COMMENT FONCTIONNE LA RECHERCHE GOOGLE ? LENS Tout Android Découvrez tout un monde d'appareils qui fonctionnent encore mieux ensemble, ainsi que des fonctionnalités d'IA pour vous aider tout au long de la journée. Notre gamme Pixel Découvrez la dernière gamme Pixel, des téléphones aux montres, en passant par les écouteurs et les tablettes. Créez des clips cinématographiques, des séquences vidéos et des petits films avec notre outil de réalisation de films par IA. GOOGLE PHOTOS GOOGLE WORKSPACE AVEC GEMINI GEMINI DANS CHROME GOOGLE MAPS Android Chrome Gemini Gmail Google Agenda Google Docs Google Maps Google Photos Google Play Pixel Recherche YouTube"
+        }
+      ]
+    },
+    "2": {
+      "topic_name": "Petrolium British / British Petrolium / Petrolium",
+      "n_documents": 8,
+      "top_keywords": [
+        "petrolium british",
+        "british petrolium",
+        "petrolium",
+        "british",
+        "happened",
+        "",
+        ""
+      ],
+      "categories": {
+        "unknown": 8
+      },
+      "languages": {
+        "en": 6,
+        "id": 1,
+        "sq": 1
+      },
+      "sources": {
+        "csv": 8
+      },
+      "sample_documents": [
+        {
+          "id": "2",
+          "category": "unknown",
+          "language": "en",
+          "original_text": "What ever happened to British Petrolium  i wonder."
+        },
+        {
+          "id": "5",
+          "category": "unknown",
+          "language": "en",
+          "original_text": "@bp_plc\n  British Petrolium"
+        },
+        {
+          "id": "14",
+          "category": "unknown",
+          "language": "en",
+          "original_text": "British Petrolium said what now?"
+        }
+      ]
+    },
+    "3": {
+      "topic_name": "British Petrolium / Petrolium / British",
+      "n_documents": 5,
+      "top_keywords": [
+        "british petrolium",
+        "petrolium",
+        "british",
+        "petrolium british",
+        "",
+        "",
+        ""
+      ],
+      "categories": {
+        "unknown": 5
+      },
+      "languages": {
+        "en": 3,
+        "fa": 1,
+        "id": 1
+      },
+      "sources": {
+        "csv": 5
+      },
+      "sample_documents": [
+        {
+          "id": "3",
+          "category": "unknown",
+          "language": "en",
+          "original_text": "British Petrolium."
+        },
+        {
+          "id": "7",
+          "category": "unknown",
+          "language": "en",
+          "original_text": "if i could only knowww which bPINK memeber i TRUELY AM!!!! TRUE ? TRUE bp? british petrolium"
+        },
+        {
+          "id": "21",
+          "category": "unknown",
+          "language": "fa",
+          "original_text": "این پمپ بنزینی در نزدیکی کرمانشاه هست. انگلیسیا خیلی به این سرزمین خدمت کردن. از جاده‌سازی و پالایشگاه تا تلگراف و کلا روح مدنیت!\nBP: BRITISH PETROLIUM"
+        }
+      ]
+    }
+  },
+  "last_update": "03/05/2026 19:08"
+}
